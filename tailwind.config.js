@@ -4,7 +4,7 @@ module.exports = {
   './assets/**/*.{css,js}',
   './layout/**/*.liquid',
   './sections/**/*.{html,js,liquid}',
-  './snippets/**/*.{liquid}',
+  './snippets/**/*.liquid',
   './templates/**/*.{json,liquid}',
  ],
  theme: {
