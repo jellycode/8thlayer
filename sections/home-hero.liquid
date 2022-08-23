@@ -7,22 +7,31 @@
   {
     "name": "Home Hero",
     "settings": [
-      {
-        "id": "custom_text_title",
-        "type": "text",
-        "label": "Text box heading",
-        "default": "Title"
-      },
-      {
-        "id": "custom_text_body",
-        "type": "richtext",
-        "label": "Add custom text below",
-        "default": "<p>Add your text here</p>"
-      }
+        {
+            "type": "header",
+            "content": {
+                "en": "Background image",
+                "de": "Hintergrundbild",
+                "es": "Imagen de fondo",
+                "fr": "Image d'arrière-plan",
+                "pt-PT": "Imagem de fundo"
+            }
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": {
+                "en": "Image",
+                "de": "Bild",
+                "es": "Imagen",
+                "fr": "Image",
+                "pt-PT": "Imagem"
+            }
+        }
     ],
     "presets": [
       {
-        "name": "home-hero",
+        "name": "Home Hero",
         "category": "Custom"
       }
     ]
