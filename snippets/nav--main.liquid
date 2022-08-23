@@ -1,0 +1,76 @@
+{% assign menu = linklists[section.settings.main_linklist] %}
+
+
+{% for link in menu.links %}
+
+  {% if link.links != blank %}
+    {% assign link-title = link.title | strip %}
+    {% assign is-mega-menu = false %}
+
+    {% if mega_menu %}
+      {% for block in section.blocks %}
+        {% assign block-title = block.settings.mega-menu | strip %}
+        {% if block-title == link-title  %}
+          {% assign is-mega-menu = true %}
+          {% assign mega-menu-block = block %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <li class="site-nav--has-dropdown {% if is-mega-menu %} mega-menu{% endif %}" aria-haspopup="true">
+      <a href="{{ link.url }}" class="site-nav__link">
+        <div class="site-nav--link-wrapper">
+          <span class="site-nav--link-text">
+            {{ link.title }}
+          </span>
+          <span class="icon-dropdown">
+            <svg xmlns="http://www.w3.org/2000/svg" width="{{ settings.header_font_size | times: 1.5 }}" height="{{ settings.header_font_size | times: 1.5 }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </span>
+        </div>
+      </a>
+
+      <ul class="site-nav__dropdown{% unless is-mega-menu %} standard-dropdown{% endunless %}{% if request.design_mode %} theme-editor-active{% endif %}">
+        {% if is-mega-menu %}
+
+          <div class="container">
+            {% render 'mega-menu' with mega-menu-block, link: link %}
+          </div>
+
+        {% else %}
+          {% for sub_link in link.links %}
+          {% if sub_link.levels > 0 %}
+              <li class="site-nav--has-dropdown" aria-haspopup="true">
+                <a href="{{ sub_link.url }}" class="site-nav__link">
+                  <div class="site-nav--link-wrapper icon-right">
+                    <span class="site-nav--link-text">
+                      {{ sub_link.title | escape }}
+                    </span>
+                    <span class="icon-dropdown">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="{{ settings.header_font_size | times: 1.5 }}" height="{{ settings.header_font_size | times: 1.5 }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </span>
+                  </div>
+                </a>
+                <ul class="site-nav__subdropdown">
+                  {% for sub_sub_link in sub_link.links %}
+                    <li>
+                      <a href="{{ sub_sub_link.url }}" class="site-nav__link">{{ sub_sub_link.title | escape }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li>
+                <a href="{{ sub_link.url }}" class="site-nav__link">{{ sub_link.title | escape }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+          {% endif %}
+      </ul>
+    </li>
+
+  {% else %}
+    <li>
+      <a href="{{ link.url }}" class="site-nav__link">{{ link.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}

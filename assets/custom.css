@@ -1,0 +1,197 @@
+/* Place any CSS overrides in this file. */
+
+html, body {
+  font-family: 'Kanit', sans-serif;
+  --header-font-stack: 'Kanit';
+  --header-font-weight: 300;
+  --body-font-stack: 'Kanit';
+  --body-font-weight: 200;
+  --navigation-font-stack: 'Kanit';
+  --navigation-font-weight: 200;
+}
+
+.header-section--wrapper {
+  max-height: 0px !important;
+  min-height: 0px !important;
+  height: 0 !important;
+  z-index: 10000;
+}
+
+.site-header {
+  --header-color: transparent;
+  --header-border-color: transparent;
+  --nav-text-color: #fff;
+  color: #fff;
+  z-index: 10000;
+}
+
+.site-header__logo-image img {
+  filter: brightness(0) invert(1);
+
+}
+
+.top-links .site-nav a {
+  
+  --nav-text-hover: var(--primary-btn-bg-hover-color) !important;
+}
+
+.top-links .site-nav a:hover {
+  color: var(--primary-btn-bg-hover-color);
+}
+
+.main-page-container.wrapper-padded {
+  padding: 20px 15px;
+}
+
+.contact-page .nav-bar .wrapper-padded {
+  padding-top: 0px;
+}
+
+@media only screen and (min-width: 480px) {
+  .main-page-container.wrapper-padded {
+    padding: 70px 30px;
+  }
+}
+
+.mobile-nav-bar-wrapper .site-nav--mobile .site-nav__link {
+  padding-right: 20px;
+}
+
+.mobile-nav-bar-wrapper .site-nav--mobile button.site-nav__link {
+  margin-left: -12px;
+}
+
+.header-section--wrapper nav.nav-bar {
+  background: transparent;
+  position: relative;
+  z-index:1000;
+}
+
+nav .site-nav--mobile i {
+  
+  --nav-text-color: #fff;
+}
+
+.site-header__logowrapper .site-title {
+  padding: 15px 0px;
+}
+
+/*
+
+@media only screen and (min-width: 680px) {
+  section.hero-video.desktop-height-fullscreen {
+    height: 800px;
+  }
+  section.hero-video.mobile-height-fullscreen .hero-video--media iframe {
+    height: 100%;
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  section.hero-video.mobile-height-fullscreen .hero-video--media iframe {
+    top: 40px;
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+-webkit-transform-origin: bottom center;
+    -ms-transform-origin: bottom center;
+        transform-origin: bottom center;
+  }
+}
+
+
+
+@media only screen and (min-width: 1600px) {
+  section.hero-video.mobile-height-fullscreen .hero-video--media iframe {
+    top: 160px;
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
+-webkit-transform-origin: bottom center;
+    -ms-transform-origin: bottom center;
+        transform-origin: bottom center;
+  }
+}
+
+*/
+
+.hero-video--wrapper .hero-video--text {
+  top: -20vh;
+}
+
+.hero-video--text .hero-video--text-content .hero-video--text-title h2.homepage-sections--title {
+    font-size: 68px;
+    font-weight: 200;
+    line-height: 1em;
+}
+.hero-video--text .hero-video--text-content .hero-video--text-subtitle p {
+    font-size: 32px;
+    line-height: 0;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+.hero-video--text .hero-video--text-content .text-content--inner:before {
+    display: none;
+}
+@media only screen and (min-width: 680px) {
+  .hero-video--text .hero-video--text-content .hero-video--text-title h2.homepage-sections--title {
+    width:80%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .hero-video--wrapper .hero-video--text {
+    top: 0px;
+  }
+  
+  .hero-video--text .hero-video--text-content .hero-video--text-title h2.homepage-sections--title {
+    letter-spacing: 5px;
+    line-height: 1.1em;
+    width: auto;
+  }
+
+  .hero-video--text .hero-video--text-content .hero-video--text-subtitle p {
+
+    line-height: 1em;
+    letter-spacing: 3px;
+  }
+  
+}
+
+@media only screen and (min-width: 1220px) {
+
+  .hero-video--text .hero-video--text-content .hero-video--text-title h2.homepage-sections--title {
+
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+    .hero-video--wrapper .hero-video--text {
+    top: -100px;
+  }
+  .hero-video--wrapper .hero-video--text {
+
+  }
+
+  .hero-video--text .hero-video--text-content .hero-video--text-title {
+    width: 600px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  
+  .hero-video--text .hero-video--text-content .hero-video--text-title h2.homepage-sections--title {
+    margin-bottom:0px;
+    width: 100%;
+  }
+
+  .hero-video--text .hero-video--text-content .hero-video--text-subtitle p {
+
+    line-height: 1.5em;
+  }
+
+  
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}

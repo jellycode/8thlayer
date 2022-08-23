@@ -1,0 +1,161 @@
+{% if section.settings.enable_announcement_bar %}
+  <noscript>{{ 'section-announcement-bar.min.css' | asset_url | stylesheet_tag }}</noscript>
+
+  <style>
+    .announcement-bar {
+      background-color: {{ section.settings.announcement-bar--background-color }};
+      color: {{ section.settings.announcement-bar--text-color }};
+    }
+
+    .announcement-bar a {
+      color: {{ section.settings.announcement-bar--text-color }};
+    }
+
+    .announcement-bar svg {
+      fill: {{ section.settings.announcement-bar--text-color }};
+    }
+  </style>
+
+  {% liquid
+  assign social_icons = false
+  if section.settings.enable_social_icons and settings.sm_facebook_link != blank or settings.sm_twitter_link != blank or settings.sm_youtube_link != blank or settings.sm_flickr_link != blank or settings.sm_pinterest_link != blank or settings.sm_instagram_link != blank or settings.sm_tumblr_link != blank or settings.sm_pinterest_link != blank or settings.sm_youtube_link != blank or settings.sm_vimeo_link != blank or settings.sm_flickr_link != blank or settings.sm_snapchat_link != blank or settings.sm_houzz_link != blank or settings.sm_linkedin_link != blank or settings.sm_tiktok_link != blank
+    assign social_icons = true
+  endif
+
+  assign content_layout = ''
+  if social_icons and section.settings.message_text != blank
+    assign content_layout = ' icons_and_text'
+  elsif social_icons and section.settings.message_text == blank
+    assign content_layout = ' icons_only'
+  elsif social_icons == false and section.settings.message_text != blank
+    assign content_layout = ' text_only'
+  endif
+  %}
+
+  <div class="announcement-bar" data-wetheme-section-type="announcement-bar" data-wetheme-section-id="{{ section.id }}">
+    <div class="announcement-bar-inner{{ content_layout }}">
+
+      {% if social_icons %}
+      <div></div>
+      {% endif %}
+
+      {% if section.settings.message_text != blank %}
+      <div class="announcement-bar--message">
+          {%- if section.settings.message_link != blank -%}
+            <a href="{{ section.settings.message_link }}">
+          {%- endif -%}
+            <span class="announcement-bar--message-inner">{{ section.settings.message_text }}</span>
+          {%- if section.settings.message_link != blank -%}
+            </a>
+          {%- endif -%}
+      </div>
+      {% endif %}
+
+      {% if social_icons %}
+      <div class="announcement-bar--social-icons">
+        {% render 'social-icons' %}
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+
+{% endif %}
+
+{% schema %}
+{
+    "name": {
+        "en": "Announcement Bar",
+        "de": "Ankündigungsleiste",
+        "es": "Barra de anuncios",
+        "fr": "Barre d'annonce",
+        "pt-PT": "Barra de Anúncios"
+    },
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "enable_announcement_bar",
+            "label": {
+                "en": "Enable",
+                "de": "Aktivieren",
+                "es": "Habilitar",
+                "fr": "Activer",
+                "pt-PT": "Ativar efeito de paralaxe"
+            },
+            "default": true
+        },
+        {
+            "type": "text",
+            "id": "message_text",
+            "label": {
+                "en": "Announcement text",
+                "de": "Ankündigungstext",
+                "es": "Texto del anuncio",
+                "fr": "Texte de l'annonce",
+                "pt-PT": "Texto do anúncio"
+            },
+            "default": {
+                "en": "Announce something here",
+                "de": "Kündigen Sie hier etwas an",
+                "es": "Anuncie algo aquí",
+                "fr": "Annoncez quelque chose ici",
+                "pt-PT": "Anuncie algo aqui"
+            }
+        },
+        {
+            "type": "url",
+            "id": "message_link",
+            "label": {
+                "en": "Announcement link",
+                "de": "Ankündigungslink",
+                "es": "Enlace del anuncio",
+                "fr": "Lien d'annonce",
+                "pt-PT": "Ligação do anúncio"
+            },
+            "info": {
+                "en": "Optional",
+                "de": "Optional",
+                "es": "Opcional",
+                "fr": "Facultatif",
+                "pt-PT": "Opcional"
+            }
+        },
+        {
+            "type": "color",
+            "id": "announcement-bar--background-color",
+            "label": {
+                "en": "Announcement background",
+                "de": "Ankündigungshintergrund",
+                "es": "Fondo del anuncio",
+                "fr": "Contexte de l'annonce",
+                "pt-PT": "Fundo do anúncio"
+            },
+            "default": "#f1f1f1"
+        },
+        {
+            "type": "color",
+            "id": "announcement-bar--text-color",
+            "label": {
+                "en": "Announcement text",
+                "de": "Ankündigungstext",
+                "es": "Texto del anuncio",
+                "fr": "Texte de l'annonce",
+                "pt-PT": "Texto do anúncio"
+            },
+            "default": "#8e8e8e"
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_social_icons",
+            "label": {
+                "en": "Enable social icons",
+                "fr": "Activer les icônes de réseaux sociaux",
+                "de": "Aktiviere Buttons für Social Media",
+                "es": "Activar iconos de medios sociales",
+                "pt-PT": "Ativar ícones sociais"
+            },
+            "default": false
+        }
+    ]
+}
+{% endschema %}
