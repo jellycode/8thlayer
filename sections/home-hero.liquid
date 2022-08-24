@@ -1,7 +1,44 @@
-<div class="custom-text-section">
-  <h2> {{ section.settings.custom_text_title }} </h2>
-  <div>{{ section.settings.custom_text_body }}</div>
+
+
+
+{% if section.settings.image != blank %}
+	{% capture id %}hero-block-{{ section.settings.image.id }}{% endcapture %}
+	{% capture selector %}#{{ id }}{% endcapture %}
+	<style>
+	{% render 'responsive-background-image' with section.settings.image, selector: selector %}
+	</style>
+	{% endif %} 
+
+
+<div id="{{ id }}" class='w-full h-full min-h-[600px] bg-cover bg-[-500px_center] md:bg-[0px_center] hero flex'>
+
+	<div class="container m-auto h-full ">
+
+		<div class="bg-white md:bg-transparent bg-opacity-50 p-10 md:p-0">
+
+		<div class="grid grid-cols-1 md:grid-cols-4 ml-0 h-full">
+			<div class="col-span-1 md:col-span-3">
+				<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
+				<h2 class="text-6xl tracking-wider uppercase font-bold mb-4">{{ section.settings.title }}</h2>
+				<div class="content max-w-lg mb-10 ">{{ section.settings.content }}</div>
+
+				<div class="flex flex-row space-x-10">
+					<a href="{{ section.settings.secondarybutton_link }}" class="uppercase text-sm font-medium bg-white px-10 py-3">{{ section.settings.secondarybutton_label }}</a>
+					<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-sm font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a>
+				</div>
+
+
+			</div>
+			<div></div>
+		</div></div>
+
+
+	</div>
+
+
 </div>
+
+
 
 {% schema %}
   {
