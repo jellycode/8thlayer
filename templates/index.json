@@ -572,9 +572,15 @@
     "1661354062c84fb601": {
       "type": "compare-slider",
       "settings": {
+        "subtitle": "Protection and Nourishment",
+        "title": "What is the 8th LAYER?",
+        "intro": "Introducing a technological break-through in skin protection.",
+        "content": "<p>UV rays from sun exposure, blue light from screens, and pollution in the air can accelerate the visible signs of aging (lines\/wrinkles, discoloration, dark\/brown spots, and sagging\/crepey skin).<\/p><p><\/p><p>Our products, THE BEAUTY SHIELD and THE BLEMISH SHIELD protect and nourish your beautiful skin every day by providing a new 8th LAYER.<\/p>",
+        "primarybutton_label": "Learn more about our tech",
+        "primarybutton_link": "shopify:\/\/pages\/7-layers-of-skin",
         "left_image": "shopify:\/\/shop_images\/uv_compare_left.png",
         "right_image": "shopify:\/\/shop_images\/uv_compare_right.png",
-        "content": "<p>The 8th LAYER provides INVISIBLE and ALL DAY PROTECTION (no need to reapply) that can only be seen with a UV camera.<\/p>"
+        "caption": "<p>The 8th LAYER provides INVISIBLE and ALL DAY PROTECTION (no need to reapply) that can only be seen with a UV camera.<\/p>"
       }
     }
   },
