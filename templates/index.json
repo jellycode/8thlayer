@@ -36,6 +36,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BLEMISH_BANNER_-_DESKTOP.png",
             "mobile_image": "shopify:\/\/shop_images\/The_Blemish_Shield_-_8th_Layer_Product_53a59959-f553-4434-979c-320612d34df5.png",
+            "subtitle": "UPF 50+ Protection",
             "title": "THE BLEMISH SHIELD",
             "text": "Multifunctional invisible film created by a dermatologist to protect and heal skin blemishes every day.",
             "button_label": "SHOP BLEMISH SHIELD",
@@ -74,6 +75,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BEAUTY_BANNER_-_DESKTOP.png",
             "mobile_image": "shopify:\/\/shop_images\/The_Beauty_Shield_-_8th_Layer_Product.png",
+            "subtitle": "UPF 50+ Protection",
             "title": "THE BEAUTY SHIELD",
             "text": "Multifunctional invisible film created by a dermatologist to protect and nourish your skin every day.",
             "button_label": "SHOP BEAUTY SHIELD",
@@ -148,6 +150,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_DESKTOP_2_ecf7447a-6e04-4634-bbd8-6c3874d8d02e.png",
             "mobile_image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_MOBILE_2_32c7b349-2b33-4d9f-ba05-4f48a5812e20.png",
+            "subtitle": "",
             "title": "",
             "text": "",
             "button_label": "",
@@ -187,6 +190,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SHOP_BANNER_-_DESKTOP_377e3deb-2fd6-4ed6-bea2-bd9200fe71cf.png",
             "mobile_image": "shopify:\/\/shop_images\/HOME_-_MOBILE_BUBBLE_BANNER_75d78394-9ce5-4abb-a35a-0f6ad86cbb4a.png",
+            "subtitle": "",
             "title": "",
             "text": "",
             "button_label": "",
@@ -257,6 +261,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/7_LAYERS_-_DESKTOP_1_PINK.png",
             "mobile_image": "shopify:\/\/shop_images\/7_LAYERS_-_MOBILE_1_-_PINK.png",
+            "subtitle": "",
             "title": "",
             "text": "",
             "button_label": "LEARN MORE",
@@ -274,6 +279,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BLUE_SKIN_BANNER_-_DESKTOP_2.png",
             "mobile_image": "shopify:\/\/shop_images\/BLUE_SKIN_BANNER_-_MOBILE_2.png",
+            "subtitle": "",
             "title": "",
             "text": "",
             "button_label": "LEARN MORE",
@@ -324,6 +330,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BUBBLE_BALE_-_1.png",
             "mobile_image": "shopify:\/\/shop_images\/BUBBLE_BALE_-_MOBILE_1.1.png",
+            "subtitle": "",
             "title": "",
             "text": "",
             "button_label": "",
@@ -363,6 +370,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BUBBLE_BALE_-_2.1.png",
             "mobile_image": "shopify:\/\/shop_images\/BUBBLE_BALE_-_MOBILE_2.1.png",
+            "subtitle": "",
             "title": "THE MOST ADVANCED PROTECTIVE OUTER LAYER FOR YOUR SKIN",
             "text": "",
             "button_label": "",
@@ -402,6 +410,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BUBBLE_BALE_-_3.1.png",
             "mobile_image": "shopify:\/\/shop_images\/BUBBLE_BALE_-_MOBILE_3.1.png",
+            "subtitle": "",
             "title": "",
             "text": "",
             "button_label": "",
@@ -566,6 +575,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Flora_-_White_BG_-_update.png",
             "mobile_image": "shopify:\/\/shop_images\/Flora_-_White_BG_MOBILE_-_update.jpg",
+            "subtitle": "",
             "title": "MY NAME IS FLORA",
             "text": "I was born in Seoul, South Korea, in a culture full of innovation and drive.  My childhood was both idyllic and complicated as we moved across continents to Europe first, then North America...",
             "button_label": "FOUNDER'S STORY",
