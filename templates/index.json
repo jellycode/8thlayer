@@ -4,6 +4,7 @@
       "type": "home-hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/CONTACT_BANNER_-_DESKTOP.png",
+        "mobile_image": "shopify:\/\/shop_images\/CONTACT_BANNER_-_MOBILE.png",
         "subtitle": "Invisible UPF 50+ Protective Patch",
         "title": "The Beauty Shield",
         "content": "<p>Innovative multi-functional technology in the form of an invisible ultra-thin film created by a dermatologist to protect and nourish your beautiful skin every day.<\/p>",
