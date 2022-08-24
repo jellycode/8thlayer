@@ -1,0 +1,82 @@
+
+
+<div class="">
+
+    <div class="">
+      <div>
+      </div>
+    </div>
+
+  
+
+</div>
+
+{% schema %}
+{
+    "name": {
+        "en": "Image with quote"
+    },
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": {
+                "en": "Image"
+            }
+        },
+        {
+            "type": "header",
+            "content": {
+                "en": "Titles"
+            }
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": {
+                "en": "Sub Title"
+            }
+		},
+        {
+            "type": "text",
+            "id": "title",
+            "label": {
+                "en": "Main Title"
+            }
+		},
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": {
+                "en": "Blurb"
+            }
+		},
+        {
+            "type": "header",
+            "content": {
+                "en": "Primary Button"
+            }
+        },
+        {
+            "type": "text",
+            "id": "primarybutton_label",
+            "label": {
+                "en": "Label"
+            }
+		},
+        {
+            "type": "url",
+            "id": "primarybutton_link",
+            "label": {
+                "en": "Link"
+            }
+		}
+    ],
+    "presets": [
+      {
+        "name": "Image Quote",
+        "category": "Custom"
+      }
+    ]
+}
+{% endschema %}
