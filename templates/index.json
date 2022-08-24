@@ -568,6 +568,14 @@
         "secondarybutton_label": "Learn More",
         "secondarybutton_link": ""
       }
+    },
+    "1661354062c84fb601": {
+      "type": "compare-slider",
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/uv_compare_left.png",
+        "right_image": "shopify:\/\/shop_images\/uv_compare_right.png",
+        "content": "<p>The 8th LAYER provides INVISIBLE and ALL DAY PROTECTION (no need to reapply) that can only be seen with a UV camera.<\/p>"
+      }
     }
   },
   "order": [
@@ -587,6 +595,7 @@
     "1657701223d384e0de",
     "166018920360763b95",
     "1657740921830e6706",
-    "1661299401711673a6"
+    "1661299401711673a6",
+    "1661354062c84fb601"
   ]
 }
