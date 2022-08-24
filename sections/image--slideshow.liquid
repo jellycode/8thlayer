@@ -134,7 +134,10 @@
                                                     <div class="homepage-featured-content-box-inner wow fadeInUp {% if block.settings.mobile_image == blank and section.settings.show-slide-dots %} mobile-dot-nav-spacing{% endif %}">
                                                         {% if block.settings.title != blank %}
                                                             <div class="sitewide--title-wrapper slideshow-title">
-                                                                <h2 class="homepage-sections--title homepage-section-title" id="{{ section.id }}_{{ block.id }}_title">
+                                                                {% if block.settings.subtitle != blank %}
+																<h5 class="!text-pink-300 lg:!text-pink-500">{{ block.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
+																{% endif %}
+																<h2 class="homepage-sections--title homepage-section-title" id="{{ section.id }}_{{ block.id }}_title">
                                                                     {% if buttonHidden == true %}<a href="{{ block.settings.button_link }}">{% endif %}{{ block.settings.title | escape }}{% if buttonHidden == true %}</a>{% endif %}
                                                                 </h2>
                                                             </div>
