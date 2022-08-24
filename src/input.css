@@ -14,4 +14,7 @@
    @apply leading-tight;
   }
  }
+ .disclosure__button {
+  @apply flex;
+ }
 }

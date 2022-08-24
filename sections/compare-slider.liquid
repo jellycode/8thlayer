@@ -1,7 +1,13 @@
 <link rel="preload" href="{{ 'compare-slider.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
 
 <div class="container m-auto my-28">
-	<div class="flex flex-col space-y-16 md:space-y-0 md:space-x-24 md:flex-row md:justify-center md:items-center">
+	<div class="flex flex-col space-y-8 md:space-y-0 md:space-x-24 md:flex-row md:justify-center md:items-center">
+
+		<div class="block md:hidden">
+			<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
+			<h2 class="text-4xl font-medium mb-2">{{ section.settings.title }}</h2>
+			<div class="content max-w-lg mt-6 font-medium text-xl ">{{ section.settings.intro }}</div>
+		</div>
 
 		<div>
 			<div class="max-w-xl">
@@ -15,13 +21,14 @@
 
 			</div>
 		</div>
-		<div class="mb-10">
+		<div class="md:mb-10">
+			<div class="hidden md:!block">
 			<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
 			<h2 class="text-4xl font-medium mb-6">{{ section.settings.title }}</h2>
-			<div class="content max-w-lg mb-6 font-medium text-xl ">{{ section.settings.intro }}</div>
-			<div class="content max-w-lg mb-16 text-base">{{ section.settings.content }}</div>
+			<div class="content max-w-lg mb-6 font-medium text-xl ">{{ section.settings.intro }}</div></div>
+			<div class="content max-w-lg mb-16 text-xl">{{ section.settings.content }}</div>
 			<div class="flex flex-row items-center justify-center md:justify-start">
-						<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-sm font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a></div>
+						<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-base font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a></div>
 		</div>
 	</div>
 </div>

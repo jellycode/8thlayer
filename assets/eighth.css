@@ -720,8 +720,24 @@ video {
   margin-bottom: 0px;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
+}
+
+.\!block {
+  display: block !important;
 }
 
 .inline-block {
@@ -734,6 +750,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.\!flex {
+  display: flex !important;
 }
 
 .table {
@@ -756,12 +776,12 @@ video {
   height: 100%;
 }
 
-.min-h-\[600px\] {
-  min-height: 600px;
+.h-screen {
+  height: 100vh;
 }
 
-.min-h-\[792px\] {
-  min-height: 792px;
+.min-h-\[600px\] {
+  min-height: 600px;
 }
 
 .min-h-\[400px\] {
@@ -778,6 +798,14 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
 }
 
 .flex-1 {
@@ -902,6 +930,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -1046,24 +1080,8 @@ video {
   background-position: center;
 }
 
-.bg-\[-500px_center\] {
-  background-position: -500px center;
-}
-
-.bg-\[-200px_center\] {
-  background-position: -200px center;
-}
-
-.bg-\[0px_center\] {
-  background-position: 0px center;
-}
-
-.bg-\[0px_bottom\] {
-  background-position: 0px bottom;
-}
-
-.bg-\[right_bottom\] {
-  background-position: right bottom;
+.bg-\[-700px_center\] {
+  background-position: -700px center;
 }
 
 .bg-\[right_-1000px\] {
@@ -1080,6 +1098,14 @@ video {
 
 .p-0 {
   padding: 0px;
+}
+
+.p-32 {
+  padding: 8rem;
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .px-8 {
@@ -1113,6 +1139,22 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-left {
@@ -1349,16 +1391,51 @@ video {
   line-height: 1.25;
 }
 
+#theme-8thlayer .disclosure__button {
+  display: flex;
+}
+
 @media (min-width: 640px) {
-  .sm\:bg-red-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+  .sm\:bg-\[-400px_center\] {
+    background-position: -400px center;
   }
 }
 
 @media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:\!block {
+    display: block !important;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:\!flex {
+    display: flex !important;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:grid-cols-4 {
@@ -1367,10 +1444,6 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:flex-row-reverse {
-    flex-direction: row-reverse;
   }
 
   .md\:items-center {
@@ -1401,17 +1474,8 @@ video {
     background-color: transparent;
   }
 
-  .md\:bg-red-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-  }
-
-  .md\:bg-\[0px_center\] {
-    background-position: 0px center;
-  }
-
-  .md\:bg-\[-720px_bottom\] {
-    background-position: -720px bottom;
+  .md\:bg-\[-300px_center\] {
+    background-position: -300px center;
   }
 
   .md\:bg-\[-780px_bottom\] {
@@ -1421,37 +1485,15 @@ video {
   .md\:p-0 {
     padding: 0px;
   }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:bg-red-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-red-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(127 29 29 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-\[200px_bottom\] {
-    background-position: 200px bottom;
-  }
-
-  .lg\:bg-\[-200px_bottom\] {
-    background-position: -200px bottom;
-  }
-
-  .lg\:bg-\[-500px_bottom\] {
-    background-position: -500px bottom;
-  }
-
-  .lg\:bg-\[-600px_bottom\] {
-    background-position: -600px bottom;
-  }
-
-  .lg\:bg-\[-800px_bottom\] {
-    background-position: -800px bottom;
+  .lg\:bg-\[0px_center\] {
+    background-position: 0px center;
   }
 
   .lg\:bg-\[-720px_bottom\] {

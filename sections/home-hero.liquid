@@ -10,24 +10,24 @@
 	{% endif %} 
 
 
-<div id="{{ id }}" class='w-full h-full min-h-[600px] bg-cover bg-[-500px_center] md:bg-[0px_center] hero flex flex-col relative'>
+<div id="{{ id }}" class='w-full h-full min-h-[600px] bg-cover bg-[-700px_center] sm:bg-[-400px_center] md:bg-[-300px_center] lg:bg-[0px_center] hero flex flex-col relative pt-32 md:pt-0'>
 
-	<div class="bg-gradient-to-r from-blue-500 via-blue-300 to-transparent backdrop-opacity-10 w-full h-full grow flex justify-center z-10 absolute opacity-40
+	<div class="hidden bg-gradient-to-r from-blue-500 via-blue-300 to-transparent backdrop-opacity-10 w-full h-full md:h-screen grow md:flex justify-center z-10 absolute opacity-40
 	">
 	</div>
-	<div class="container m-auto h-full z-20">
+	<div class="container m-auto h-full md:h-screen z-20 pb-24">
 
-		<div class="bg-white md:bg-transparent bg-opacity-50 p-10 md:p-0">
+		<div class="bg-white md:bg-transparent bg-opacity-50 p-12 md:p-0 h-full md:h-screen flex justify-start items-center">
 
-		<div class="grid grid-cols-1 md:grid-cols-4 ml-0 h-full">
+		<div class="grid grid-cols-1 md:grid-cols-4 ml-0">
 			<div class="col-span-1 md:col-span-3">
 				<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
 				<h2 class="text-6xl tracking-wider uppercase font-bold mb-4">{{ section.settings.title }}</h2>
 				<div class="content max-w-lg mb-10 ">{{ section.settings.content }}</div>
 
 				<div class="flex flex-row items-center justify-center md:justify-start space-x-10">
-					<a href="{{ section.settings.secondarybutton_link }}" class="uppercase text-sm font-medium bg-white px-10 py-3">{{ section.settings.secondarybutton_label }}</a>
-					<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-sm font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a>
+					<a href="{{ section.settings.secondarybutton_link }}" class="uppercase text-base font-medium bg-white px-10 py-3">{{ section.settings.secondarybutton_label }}</a>
+					<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-base font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a>
 				</div>
 
 
@@ -57,6 +57,13 @@
             "id": "image",
             "label": {
                 "en": "Image"
+            }
+        },
+        {
+            "type": "image_picker",
+            "id": "mobile_image",
+            "label": {
+                "en": "Mobile Image"
             }
         },
         {
