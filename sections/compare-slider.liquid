@@ -1,35 +1,29 @@
 <link rel="preload" href="{{ 'compare-slider.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
 
 <div class="container m-auto my-28">
+	<div class="flex flex-col space-y-16 md:space-y-0 md:space-x-24 md:flex-row md:justify-center md:items-center">
 
-<div class="flex flex-col space-y-16 md:space-y-0 md:space-x-24 md:flex-row justify-center items-center">
+		<div>
+			<div class="max-w-xl">
 
-	<div class="mb-10">
-		<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
-		<h2 class="text-4xl font-medium mb-6">{{ section.settings.title }}</h2>
-		<div class="content max-w-lg mb-6 font-medium text-xl ">{{ section.settings.intro }}</div>
-		<div class="content max-w-lg mb-16 text-base">{{ section.settings.content }}</div>
-		<div class="">
-					<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-sm font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a></div>
-	</div>
-	<div>
-		<div class="max-w-xl">
+				<compare-slider id="image-compare" class="shadow-sm">
+				<img src="{{ section.settings.left_image | img_url: 'large' }}" alt="" />
+				<img src="{{ section.settings.right_image | img_url: 'large' }}" alt="" />
+				</compare-slider>
 
-		<compare-slider id="image-compare" class="shadow-sm">
-		<img src="{{ section.settings.left_image | img_url: 'large' }}" alt="" />
-		<img src="{{ section.settings.right_image | img_url: 'large' }}" alt="" />
-		</compare-slider>
+				<div class="text-sm font-medium text-center px-4 mt-4">{{ section.settings.caption }}</div>
 
-		<div class="text-sm font-medium text-center px-4 mt-4">{{ section.settings.caption }}</div>
-
+			</div>
 		</div>
-
-
+		<div class="mb-10">
+			<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
+			<h2 class="text-4xl font-medium mb-6">{{ section.settings.title }}</h2>
+			<div class="content max-w-lg mb-6 font-medium text-xl ">{{ section.settings.intro }}</div>
+			<div class="content max-w-lg mb-16 text-base">{{ section.settings.content }}</div>
+			<div class="flex flex-row items-center justify-center md:justify-start">
+						<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-sm font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a></div>
+		</div>
 	</div>
-
-
-</div>
-
 </div>
 
 
