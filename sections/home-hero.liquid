@@ -5,12 +5,12 @@
 	{% capture id %}hero-block-{{ section.settings.image.id }}{% endcapture %}
 	{% capture selector %}#{{ id }}{% endcapture %}
 	<style>
-	{% render 'responsive-background-image' with section.settings.image, selector: selector %}
+	{% render 'responsive-background-image' with section.settings.image, selector: selector, mobile:section.settings.mobile_image %}
 	</style>
 	{% endif %} 
 
 
-<div id="{{ id }}" class='w-full h-full min-h-[600px] bg-cover bg-[-700px_center] sm:bg-[-400px_center] md:bg-[-300px_center] lg:bg-[0px_center] hero flex flex-col relative pt-32 md:pt-0'>
+<div id="{{ id }}" class='w-full h-full min-h-[600px] bg-cover bg-no-repeat bg-[right_center] md:bg-[-300px_center] lg:bg-[0px_center] hero flex flex-col relative pt-32 md:pt-0'>
 
 	<div class="hidden bg-gradient-to-r from-blue-500 via-blue-300 to-transparent backdrop-opacity-10 w-full h-full md:h-screen grow md:flex justify-center z-10 absolute opacity-40
 	">

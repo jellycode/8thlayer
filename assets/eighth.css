@@ -1088,6 +1088,10 @@ video {
   background-position: right -1000px;
 }
 
+.bg-\[right_center\] {
+  background-position: right center;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }

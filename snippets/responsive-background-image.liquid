@@ -12,7 +12,7 @@
 {% endcomment %}
 
 {% if sizes == blank %}
-    {% assign sizes = '300, 600, 900, 1200, 1500, 2000, 4000' %}
+    {% assign sizes = '300, 640, 768, 1024, 1280, 1536, 2000' %}
 {% endif %}
 
 {% assign sizes_array = sizes | split: ', ' %}
@@ -20,14 +20,27 @@
 
 {% capture url_size %}{{ last_size }}x{% endcapture %}
 {{ selector }} {
+	{% if mobile != blank %}
+  background-image: url('{{ mobile | img_url: 'large' }}');
+	{% else %}
   background-image: url('{{ responsive-background-image | img_url: url_size }}');
+	{% endif %}
 }
 
 {% for size in sizes_array offset: 1 %}
   {% capture url_size %}{{ size }}x{% endcapture %}
 @media (min-width: {{ last_size | plus: 1 }}px){% if size != sizes_array.last %} and (max-width: {{ size }}px){% endif %} {
   {{ selector }} {
+	{% if mobile != blank %}
+	{% assign numbersize = size | plus: 0 %}
+	{% if numbersize <= 768 %}
+    background-image: url('{{ mobile| img_url: 'large' }}');
+	{% else %}
     background-image: url('{{ responsive-background-image | img_url: url_size }}');
+	{% endif %}
+	{% else %}
+    background-image: url('{{ responsive-background-image | img_url: url_size }}');
+	{% endif %}
   }
 }
   {% assign last_size = size %}
