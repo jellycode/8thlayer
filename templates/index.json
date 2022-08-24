@@ -582,6 +582,17 @@
         "right_image": "shopify:\/\/shop_images\/uv_compare_right.png",
         "caption": "<p>The 8th LAYER provides INVISIBLE and ALL DAY PROTECTION (no need to reapply) that can only be seen with a UV camera.<\/p>"
       }
+    },
+    "166137403977b5e24a": {
+      "type": "image--image-quote",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flora_banner.png",
+        "subtitle": "Dermatologist \/ Creator \/ Founder",
+        "title": "Flora Kim, MD, FAAD",
+        "content": "<p>I had an idea to create an invisible protective layer for our skin to be a shield from the harmful effects of the sun and the consequences of our modern lifestyle.<\/p><p><\/p><p>This is the 8th LAYER, the culmination of a wish fulfilled.<\/p>",
+        "primarybutton_label": "My Story and Inspiration",
+        "primarybutton_link": "shopify:\/\/pages\/story"
+      }
     }
   },
   "order": [
@@ -602,6 +613,7 @@
     "166018920360763b95",
     "1657740921830e6706",
     "1661299401711673a6",
-    "1661354062c84fb601"
+    "1661354062c84fb601",
+    "166137403977b5e24a"
   ]
 }
