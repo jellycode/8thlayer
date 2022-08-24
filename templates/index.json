@@ -1,7 +1,185 @@
 {
   "sections": {
+    "1661299401711673a6": {
+      "type": "home-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CONTACT_BANNER_-_DESKTOP.png",
+        "subtitle": "Invisible UPF 50+ Protective Patch",
+        "title": "The Beauty Shield",
+        "content": "<p>Innovative multi-functional technology in the form of an invisible ultra-thin film created by a dermatologist to protect and nourish your beautiful skin every day.<\/p>",
+        "primarybutton_label": "Shop Now",
+        "primarybutton_link": "",
+        "secondarybutton_label": "Learn More",
+        "secondarybutton_link": ""
+      }
+    },
+    "1661354062c84fb601": {
+      "type": "compare-slider",
+      "settings": {
+        "subtitle": "Protection and Nourishment",
+        "title": "What is the 8th LAYER?",
+        "intro": "Introducing a technological break-through in skin protection.",
+        "content": "<p>UV rays from sun exposure, blue light from screens, and pollution in the air can accelerate the visible signs of aging (lines\/wrinkles, discoloration, dark\/brown spots, and sagging\/crepey skin).<\/p><p><\/p><p>Our products, THE BEAUTY SHIELD and THE BLEMISH SHIELD protect and nourish your beautiful skin every day by providing a new 8th LAYER.<\/p>",
+        "primarybutton_label": "Learn more about our tech",
+        "primarybutton_link": "shopify:\/\/pages\/7-layers-of-skin",
+        "left_image": "shopify:\/\/shop_images\/uv_compare_left.png",
+        "right_image": "shopify:\/\/shop_images\/uv_compare_right.png",
+        "caption": "<p>The 8th LAYER provides INVISIBLE and ALL DAY PROTECTION (no need to reapply) that can only be seen with a UV camera.<\/p>"
+      }
+    },
+    "1659049476a836bc0c": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1659049476c22fbc87-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BLEMISH_BANNER_-_DESKTOP.png",
+            "mobile_image": "shopify:\/\/shop_images\/The_Blemish_Shield_-_8th_Layer_Product_53a59959-f553-4434-979c-320612d34df5.png",
+            "title": "THE BLEMISH SHIELD",
+            "text": "Multifunctional invisible film created by a dermatologist to protect and heal skin blemishes every day.",
+            "button_label": "SHOP BLEMISH SHIELD",
+            "button_link": "shopify:\/\/products\/the-blemish-shield",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#323131",
+            "button-text": "#323131",
+            "button-background": "#e4f3e8",
+            "captionHorizontal": "left",
+            "captionAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1659049476c22fbc87-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 38,
+        "caption-subheading-size": 22,
+        "caption-button-size": 16,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "1659049309a8a0cfaf": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1659049309d3e64bb0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BEAUTY_BANNER_-_DESKTOP.png",
+            "mobile_image": "shopify:\/\/shop_images\/The_Beauty_Shield_-_8th_Layer_Product.png",
+            "title": "THE BEAUTY SHIELD",
+            "text": "Multifunctional invisible film created by a dermatologist to protect and nourish your skin every day.",
+            "button_label": "SHOP BEAUTY SHIELD",
+            "button_link": "shopify:\/\/products\/the-beauty-shield",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#323131",
+            "button-text": "#323131",
+            "button-background": "#fbf2f7",
+            "captionHorizontal": "right",
+            "captionAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1659049309d3e64bb0-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 38,
+        "caption-subheading-size": 22,
+        "caption-button-size": 16,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "166137403977b5e24a": {
+      "type": "image--image-quote",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flora_banner.png",
+        "subtitle": "Dermatologist \/ Creator \/ Founder",
+        "title": "Flora Kim, MD, FAAD",
+        "content": "<p>I had an idea to create an invisible protective layer for our skin to be a shield from the harmful effects of the sun and the consequences of our modern lifestyle.<\/p><p><\/p><p>This is the 8th LAYER, the culmination of a wish fulfilled.<\/p>",
+        "primarybutton_label": "My Story and Inspiration",
+        "primarybutton_link": "shopify:\/\/pages\/story"
+      }
+    },
+    "1657701223d384e0de": {
+      "type": "newsletter--newsletter",
+      "settings": {
+        "colors": "dark",
+        "newsletter_heading": "JOIN THE 8TH LAYER WORLD",
+        "newsletter_description": "<p>Be first to know about the latest 8TH LAYER innovations and special events.<\/p>"
+      }
+    },
+    "166018920360763b95": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1660189203bcccecee-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"social-widget-wrapper\" data-widget-id=\"45623\">\n    <\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1660189203bcccecee-0"
+      ],
+      "settings": {
+      }
+    },
+    "1657740921830e6706": {
+      "type": "image--slideshow",
+      "blocks": {
+        "16577409216bd8eaf0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_DESKTOP_2_ecf7447a-6e04-4634-bbd8-6c3874d8d02e.png",
+            "mobile_image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_MOBILE_2_32c7b349-2b33-4d9f-ba05-4f48a5812e20.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16577409216bd8eaf0-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
     "1660147013f762dffe": {
       "type": "image--slideshow",
+      "disabled": true,
       "blocks": {
         "1660147013ae6eb5c7-0": {
           "type": "image",
@@ -123,82 +301,6 @@
         "caption-button-size": 14,
         "show-slide-dots": false,
         "show-slide-arrows": false,
-        "slider-navigation-color": "#ffffff"
-      }
-    },
-    "1659049309a8a0cfaf": {
-      "type": "image--slideshow",
-      "blocks": {
-        "1659049309d3e64bb0-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BEAUTY_BANNER_-_DESKTOP.png",
-            "mobile_image": "shopify:\/\/shop_images\/The_Beauty_Shield_-_8th_Layer_Product.png",
-            "title": "THE BEAUTY SHIELD",
-            "text": "Multifunctional invisible film created by a dermatologist to protect and nourish your skin every day.",
-            "button_label": "SHOP BEAUTY SHIELD",
-            "button_link": "shopify:\/\/products\/the-beauty-shield",
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#323131",
-            "button-text": "#323131",
-            "button-background": "#fbf2f7",
-            "captionHorizontal": "right",
-            "captionAlignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1659049309d3e64bb0-0"
-      ],
-      "settings": {
-        "slider-animation": "slide",
-        "slider-width": "full-width",
-        "vertical-alignment": true,
-        "text-below-image": true,
-        "slider-slide-time": 5,
-        "caption-heading-size": 38,
-        "caption-subheading-size": 22,
-        "caption-button-size": 16,
-        "show-slide-dots": false,
-        "show-slide-arrows": true,
-        "slider-navigation-color": "#ffffff"
-      }
-    },
-    "1659049476a836bc0c": {
-      "type": "image--slideshow",
-      "blocks": {
-        "1659049476c22fbc87-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BLEMISH_BANNER_-_DESKTOP.png",
-            "mobile_image": "shopify:\/\/shop_images\/The_Blemish_Shield_-_8th_Layer_Product_53a59959-f553-4434-979c-320612d34df5.png",
-            "title": "THE BLEMISH SHIELD",
-            "text": "Multifunctional invisible film created by a dermatologist to protect and heal skin blemishes every day.",
-            "button_label": "SHOP BLEMISH SHIELD",
-            "button_link": "shopify:\/\/products\/the-blemish-shield",
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#323131",
-            "button-text": "#323131",
-            "button-background": "#e4f3e8",
-            "captionHorizontal": "left",
-            "captionAlignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1659049476c22fbc87-0"
-      ],
-      "settings": {
-        "slider-animation": "slide",
-        "slider-width": "full-width",
-        "vertical-alignment": true,
-        "text-below-image": true,
-        "slider-slide-time": 5,
-        "caption-heading-size": 38,
-        "caption-subheading-size": 22,
-        "caption-button-size": 16,
-        "show-slide-dots": false,
-        "show-slide-arrows": true,
         "slider-navigation-color": "#ffffff"
       }
     },
@@ -492,128 +594,27 @@
         "show-slide-arrows": false,
         "slider-navigation-color": "#ffffff"
       }
-    },
-    "1657701223d384e0de": {
-      "type": "newsletter--newsletter",
-      "settings": {
-        "colors": "dark",
-        "newsletter_heading": "JOIN THE 8TH LAYER WORLD",
-        "newsletter_description": "<p>Be first to know about the latest 8TH LAYER innovations and special events.<\/p>"
-      }
-    },
-    "166018920360763b95": {
-      "type": "advanced-layout--custom-html",
-      "blocks": {
-        "1660189203bcccecee-0": {
-          "type": "html",
-          "settings": {
-            "code": "<div class=\"social-widget-wrapper\" data-widget-id=\"45623\">\n    <\/div>",
-            "width": "100%"
-          }
-        }
-      },
-      "block_order": [
-        "1660189203bcccecee-0"
-      ],
-      "settings": {
-      }
-    },
-    "1657740921830e6706": {
-      "type": "image--slideshow",
-      "blocks": {
-        "16577409216bd8eaf0-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_DESKTOP_2_ecf7447a-6e04-4634-bbd8-6c3874d8d02e.png",
-            "mobile_image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_MOBILE_2_32c7b349-2b33-4d9f-ba05-4f48a5812e20.png",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
-            "captionHorizontal": "left",
-            "captionAlignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "16577409216bd8eaf0-0"
-      ],
-      "settings": {
-        "slider-animation": "slide",
-        "slider-width": "full-width",
-        "vertical-alignment": true,
-        "text-below-image": false,
-        "slider-slide-time": 5,
-        "caption-heading-size": 30,
-        "caption-subheading-size": 16,
-        "caption-button-size": 14,
-        "show-slide-dots": false,
-        "show-slide-arrows": true,
-        "slider-navigation-color": "#ffffff"
-      }
-    },
-    "1661299401711673a6": {
-      "type": "home-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/CONTACT_BANNER_-_DESKTOP.png",
-        "subtitle": "Invisible UPF 50+ Protective Patch",
-        "title": "The Beauty Shield",
-        "content": "<p>Innovative multi-functional technology in the form of an invisible ultra-thin film created by a dermatologist to protect and nourish your beautiful skin every day.<\/p>",
-        "primarybutton_label": "Shop Now",
-        "primarybutton_link": "",
-        "secondarybutton_label": "Learn More",
-        "secondarybutton_link": ""
-      }
-    },
-    "1661354062c84fb601": {
-      "type": "compare-slider",
-      "settings": {
-        "subtitle": "Protection and Nourishment",
-        "title": "What is the 8th LAYER?",
-        "intro": "Introducing a technological break-through in skin protection.",
-        "content": "<p>UV rays from sun exposure, blue light from screens, and pollution in the air can accelerate the visible signs of aging (lines\/wrinkles, discoloration, dark\/brown spots, and sagging\/crepey skin).<\/p><p><\/p><p>Our products, THE BEAUTY SHIELD and THE BLEMISH SHIELD protect and nourish your beautiful skin every day by providing a new 8th LAYER.<\/p>",
-        "primarybutton_label": "Learn more about our tech",
-        "primarybutton_link": "shopify:\/\/pages\/7-layers-of-skin",
-        "left_image": "shopify:\/\/shop_images\/uv_compare_left.png",
-        "right_image": "shopify:\/\/shop_images\/uv_compare_right.png",
-        "caption": "<p>The 8th LAYER provides INVISIBLE and ALL DAY PROTECTION (no need to reapply) that can only be seen with a UV camera.<\/p>"
-      }
-    },
-    "166137403977b5e24a": {
-      "type": "image--image-quote",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/flora_banner.png",
-        "subtitle": "Dermatologist \/ Creator \/ Founder",
-        "title": "Flora Kim, MD, FAAD",
-        "content": "<p>I had an idea to create an invisible protective layer for our skin to be a shield from the harmful effects of the sun and the consequences of our modern lifestyle.<\/p><p><\/p><p>This is the 8th LAYER, the culmination of a wish fulfilled.<\/p>",
-        "primarybutton_label": "My Story and Inspiration",
-        "primarybutton_link": "shopify:\/\/pages\/story"
-      }
     }
   },
   "order": [
+    "1661299401711673a6",
+    "1661354062c84fb601",
+    "1659049476a836bc0c",
+    "1659049309a8a0cfaf",
+    "166137403977b5e24a",
+    "1657701223d384e0de",
+    "166018920360763b95",
+    "1657740921830e6706",
     "1660147013f762dffe",
     "video-video-hero",
     "165774678290894d85",
     "1657744199b92ac9ed",
-    "1659049309a8a0cfaf",
-    "1659049476a836bc0c",
     "165971657662c6c36d",
     "165773927267891dd3",
     "1657739332743ea72b",
     "16577393897bd60794",
     "165775490409d695ea",
     "1657689971dc2b825e",
-    "16577462509b596712",
-    "1657701223d384e0de",
-    "166018920360763b95",
-    "1657740921830e6706",
-    "1661299401711673a6",
-    "1661354062c84fb601",
-    "166137403977b5e24a"
+    "16577462509b596712"
   ]
 }
