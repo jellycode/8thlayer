@@ -3,9 +3,11 @@
 		"dev": "npx tailwindcss -i ./src/input.css -o ./assets/eighth.css --watch --postcss"
 	},
 	"devDependencies": {
+		"@rollup/plugin-node-resolve": "^13.3.0",
 		"autoprefixer": "^10.4.8",
 		"postcss-import": "^14.1.0",
 		"postcss-nesting": "^10.1.10",
+		"rollup-plugin-import-css": "^3.0.3",
 		"tailwindcss": "^3.1.8"
 	},
 	"dependencies": {
