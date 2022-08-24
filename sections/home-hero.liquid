@@ -10,9 +10,12 @@
 	{% endif %} 
 
 
-<div id="{{ id }}" class='w-full h-full min-h-[600px] bg-cover bg-[-500px_center] md:bg-[0px_center] hero flex'>
+<div id="{{ id }}" class='w-full h-full min-h-[600px] bg-cover bg-[-500px_center] md:bg-[0px_center] hero flex flex-col relative'>
 
-	<div class="container m-auto h-full ">
+	<div class="bg-gradient-to-r from-blue-500 via-blue-300 to-transparent backdrop-opacity-10 w-full h-full grow flex justify-center z-10 absolute opacity-40
+	">
+	</div>
+	<div class="container m-auto h-full z-20">
 
 		<div class="bg-white md:bg-transparent bg-opacity-50 p-10 md:p-0">
 
@@ -33,8 +36,7 @@
 		</div></div>
 
 
-	</div>
-
+</div>
 
 </div>
 

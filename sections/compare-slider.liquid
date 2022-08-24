@@ -1,0 +1,39 @@
+
+
+
+<script src="{{ 'compare-slider.js' | asset_url }}" async></script>
+
+{% schema %}
+  {
+    "name": "Compare Slider",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "left_image",
+            "label": {
+                "en": "Left Image"
+            }
+        },
+        {
+            "type": "image_picker",
+            "id": "right_image",
+            "label": {
+                "en": "Right Image"
+            }
+        },
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": {
+                "en": "Caption"
+            }
+		}
+    ],
+    "presets": [
+      {
+        "name": "Compare Slider",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
