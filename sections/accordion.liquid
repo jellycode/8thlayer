@@ -71,7 +71,7 @@
   data-wetheme-section-type="accordion--faq"
   data-wetheme-section-id="{{ section.id }}"
 >
-    <div class="accordion-container max-w-4xl m-auto">
+    <div class="accordion-container container max-w-4xl m-auto">
       {% unless section.settings.title == blank %}
         <div class="title-bar custom-font">
           <h2 class="homepage-sections--title">{{ section.settings.title }}</h2>
@@ -81,7 +81,7 @@
       {% for block in section.blocks %}
         {% unless block.settings.text == blank and block.settings.question == blank %}
           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
+            <summary role="button" aria-expanded="false" tabindex="0" class="gap-6">
               {{ block.settings.question }}<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
             </summary>
             <div class="rte">

@@ -20,7 +20,7 @@
 	</div>
 	<div class="container m-auto h-full md:h-screen z-20 pb-24">
 
-		<div class="bg-white md:bg-transparent bg-opacity-50 p-12 md:p-0 h-full md:h-screen flex justify-start items-center">
+		<div class="bg-white md:bg-transparent bg-opacity-80 p-12 md:p-0 h-full md:h-screen flex justify-start items-center">
 
 		<div class="grid grid-cols-1 md:grid-cols-4 ml-0">
 			<div class="col-span-1 md:col-span-3">
@@ -28,9 +28,9 @@
 				<h2 class="text-6xl tracking-wider uppercase font-bold mb-4">{{ section.settings.title }}</h2>
 				<div class="content max-w-lg mb-10 font-light ">{{ section.settings.content }}</div>
 
-				<div class="flex flex-row items-center justify-center md:justify-start space-x-10">
-					<a href="{{ section.settings.secondarybutton_link }}" class="uppercase text-base font-medium bg-white px-10 py-3 hover:text-pink-500 transition">{{ section.settings.secondarybutton_label }}</a>
-					<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-base font-medium bg-pink-300 px-10 py-3 hover:bg-pink-100 hover:text-pink-500 transition">{{ section.settings.primarybutton_label }}</a>
+				<div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:justify-start md:space-x-10">
+					<a href="{{ section.settings.secondarybutton_link }}" class="uppercase text-base font-medium bg-pink-100 px-10 py-3 hover:text-pink-500 transition flex justify-center w-full">{{ section.settings.secondarybutton_label }}</a>
+					<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-base font-medium bg-pink-300 px-10 py-3 hover:bg-pink-100 hover:text-pink-500 transition flex justify-center  w-full">{{ section.settings.primarybutton_label }}</a>
 				</div>
 
 

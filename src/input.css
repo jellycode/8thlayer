@@ -18,7 +18,7 @@ body.theme-8thlayer {
   @apply flex;
  }
  .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper {
-  @apply mt-20;
+  @apply mt-0;
  }
  a.homepage-section-btn {
   @apply mt-0;
