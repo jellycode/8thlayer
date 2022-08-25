@@ -1,1 +1,295 @@
-{"sections":{"165852150031e7eaa4":{"type":"image--slideshow","blocks":{"1658521500ddaa6890-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/CONTACT_BANNER_-_DESKTOP.png","mobile_image":"shopify:\/\/shop_images\/CONTACT_BANNER_-_MOBILE.png","title":"","text":"","button_label":"","button_link":"","caption-background":"rgba(0,0,0,0)","caption-text":"#ffffff","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"left","captionAlignment":"left"}}},"block_order":["1658521500ddaa6890-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":false,"slider-slide-time":5,"caption-heading-size":30,"caption-subheading-size":16,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":false,"slider-navigation-color":"#ffffff"}},"main":{"type":"template--page-contact","blocks":{"name":{"type":"text","settings":{"field-type":"text","form-field-label":"Name","required":true}},"email":{"type":"text","settings":{"field-type":"email","form-field-label":"","required":true}},"message":{"type":"text","settings":{"field-type":"textbox","form-field-label":"","required":true}}},"block_order":["name","email","message"],"settings":{"banner-image-size":"original","parallax":true,"layout":"below"}},"166014896739154974":{"type":"text--rich-text","settings":{"colors":"white","title":"","text":"","button_label":"","button_link":""}},"1660148579812a64a1":{"type":"image--slideshow","blocks":{"16601485795ee71a50-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/STORY_SHOP_BANNER_-_MOBILE_2_154bdae5-7181-4834-8eaa-2ff8b55a046f.png","mobile_image":"shopify:\/\/shop_images\/SHOP_BANNER_-_DESKTOP_377e3deb-2fd6-4ed6-bea2-bd9200fe71cf.png","title":"","text":"","button_label":"","button_link":"","caption-background":"rgba(0,0,0,0)","caption-text":"#ffffff","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"left","captionAlignment":"left"}}},"block_order":["16601485795ee71a50-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":true,"slider-slide-time":5,"caption-heading-size":30,"caption-subheading-size":16,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}},"16601486889724cee4":{"type":"image--slideshow","blocks":{"16601486889258e2ad-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BEAUTY_BANNER_-_DESKTOP.png","mobile_image":"shopify:\/\/shop_images\/The_Beauty_Shield_-_8th_Layer_Product.png","title":"THE BEAUTY SHIELD","text":"Multifunctional invisible film created by a dermatologist to protect and nourish your skin every day.","button_label":"SHOP BEAUTY SHIELD","button_link":"shopify:\/\/products\/the-beauty-shield","caption-background":"rgba(0,0,0,0)","caption-text":"#323131","button-text":"#323131","button-background":"#fbf2f7","captionHorizontal":"right","captionAlignment":"center"}}},"block_order":["16601486889258e2ad-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":true,"slider-slide-time":5,"caption-heading-size":38,"caption-subheading-size":22,"caption-button-size":16,"show-slide-dots":false,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}},"16601488305b405ae0":{"type":"image--slideshow","blocks":{"1660148830d468afd2-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BLEMISH_BANNER_-_DESKTOP.png","mobile_image":"shopify:\/\/shop_images\/The_Blemish_Shield_-_8th_Layer_Product_53a59959-f553-4434-979c-320612d34df5.png","title":"THE BLEMISH SHIELD","text":"Multifunctional invisible film created by a dermatologist to protect and heal skin blemishes every day.","button_label":"SHOP BLEMISH SHIELD","button_link":"shopify:\/\/products\/the-blemish-shield","caption-background":"rgba(0,0,0,0)","caption-text":"#323131","button-text":"#323131","button-background":"#e4f3e8","captionHorizontal":"left","captionAlignment":"center"}}},"block_order":["1660148830d468afd2-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":true,"slider-slide-time":5,"caption-heading-size":38,"caption-subheading-size":22,"caption-button-size":16,"show-slide-dots":false,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}},"166014891032c0f046":{"type":"text--rich-text","settings":{"colors":"white","title":"","text":"","button_label":"","button_link":""}},"newsletter":{"type":"newsletter--newsletter","settings":{"colors":"light","newsletter_heading":"JOIN THE 8TH LAYER WORLD","newsletter_description":"<p>Be first to know about the latest 8TH LAYER innovations and special events.<\/p>"}},"16602385552de7ee83":{"type":"advanced-layout--custom-html","blocks":{"16602385554338938b-0":{"type":"html","settings":{"code":"<div class=\"social-widget-wrapper\" data-widget-id=\"45623\">\n    <\/div>","width":"100%"}}},"block_order":["16602385554338938b-0"],"settings":{}},"1658521371a5401699":{"type":"image--slideshow","blocks":{"1658521371facb9aa0-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FOOTER_BANNER_-_DESKTOP_2_ecf7447a-6e04-4634-bbd8-6c3874d8d02e.png","mobile_image":"shopify:\/\/shop_images\/FOOTER_BANNER_-_MOBILE_2_32c7b349-2b33-4d9f-ba05-4f48a5812e20.png","title":"","text":"","button_label":"","button_link":"","caption-background":"rgba(0,0,0,0)","caption-text":"#ffffff","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"left","captionAlignment":"left"}}},"block_order":["1658521371facb9aa0-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":false,"slider-slide-time":5,"caption-heading-size":30,"caption-subheading-size":16,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":false,"slider-navigation-color":"#ffffff"}}},"order":["165852150031e7eaa4","main","166014896739154974","1660148579812a64a1","16601486889724cee4","16601488305b405ae0","166014891032c0f046","newsletter","16602385552de7ee83","1658521371a5401699"]}
+{
+  "sections": {
+    "165852150031e7eaa4": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1658521500ddaa6890-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CONTACT_BANNER_-_DESKTOP.png",
+            "mobile_image": "shopify:\/\/shop_images\/CONTACT_BANNER_-_MOBILE.png",
+            "subtitle": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1658521500ddaa6890-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": false,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "template--page-contact",
+      "blocks": {
+        "name": {
+          "type": "text",
+          "settings": {
+            "field-type": "text",
+            "form-field-label": "Name",
+            "required": true
+          }
+        },
+        "email": {
+          "type": "text",
+          "settings": {
+            "field-type": "email",
+            "form-field-label": "",
+            "required": true
+          }
+        },
+        "message": {
+          "type": "text",
+          "settings": {
+            "field-type": "textbox",
+            "form-field-label": "",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message"
+      ],
+      "settings": {
+        "banner-image-size": "original",
+        "parallax": true,
+        "layout": "below"
+      }
+    },
+    "166014896739154974": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1660148579812a64a1": {
+      "type": "image--slideshow",
+      "blocks": {
+        "16601485795ee71a50-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STORY_SHOP_BANNER_-_MOBILE_2_154bdae5-7181-4834-8eaa-2ff8b55a046f.png",
+            "mobile_image": "shopify:\/\/shop_images\/SHOP_BANNER_-_DESKTOP_377e3deb-2fd6-4ed6-bea2-bd9200fe71cf.png",
+            "subtitle": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16601485795ee71a50-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "16601486889724cee4": {
+      "type": "image--slideshow",
+      "blocks": {
+        "16601486889258e2ad-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BEAUTY_BANNER_-_DESKTOP.png",
+            "mobile_image": "shopify:\/\/shop_images\/The_Beauty_Shield_-_8th_Layer_Product.png",
+            "subtitle": "UPF 50+ PROTECTION",
+            "title": "THE BEAUTY SHIELD",
+            "text": "Multifunctional invisible film created by a dermatologist to protect and nourish your skin every day.",
+            "button_label": "SHOP BEAUTY SHIELD",
+            "button_link": "shopify:\/\/products\/the-beauty-shield",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#323131",
+            "button-text": "#323131",
+            "button-background": "#fbf2f7",
+            "captionHorizontal": "right",
+            "captionAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16601486889258e2ad-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 38,
+        "caption-subheading-size": 22,
+        "caption-button-size": 16,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "16601488305b405ae0": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1660148830d468afd2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BLEMISH_BANNER_-_DESKTOP.png",
+            "mobile_image": "shopify:\/\/shop_images\/The_Blemish_Shield_-_8th_Layer_Product_53a59959-f553-4434-979c-320612d34df5.png",
+            "subtitle": "UPF 50+ PROTECTION",
+            "title": "THE BLEMISH SHIELD",
+            "text": "Multifunctional invisible film created by a dermatologist to protect and heal skin blemishes every day.",
+            "button_label": "SHOP BLEMISH SHIELD",
+            "button_link": "shopify:\/\/products\/the-blemish-shield",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#323131",
+            "button-text": "#323131",
+            "button-background": "#e4f3e8",
+            "captionHorizontal": "left",
+            "captionAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1660148830d468afd2-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 38,
+        "caption-subheading-size": 22,
+        "caption-button-size": 16,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "166014891032c0f046": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "newsletter": {
+      "type": "newsletter--newsletter",
+      "settings": {
+        "colors": "light",
+        "newsletter_heading": "JOIN THE 8TH LAYER WORLD",
+        "newsletter_description": "<p>Be first to know about the latest 8TH LAYER innovations and special events.<\/p>"
+      }
+    },
+    "16602385552de7ee83": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "16602385554338938b-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"social-widget-wrapper\" data-widget-id=\"45623\">\n    <\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "16602385554338938b-0"
+      ],
+      "settings": {
+      }
+    },
+    "1658521371a5401699": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1658521371facb9aa0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_DESKTOP_2_ecf7447a-6e04-4634-bbd8-6c3874d8d02e.png",
+            "mobile_image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_MOBILE_2_32c7b349-2b33-4d9f-ba05-4f48a5812e20.png",
+            "subtitle": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1658521371facb9aa0-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": false,
+        "slider-navigation-color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "165852150031e7eaa4",
+    "main",
+    "166014896739154974",
+    "1660148579812a64a1",
+    "16601486889724cee4",
+    "16601488305b405ae0",
+    "166014891032c0f046",
+    "newsletter",
+    "16602385552de7ee83",
+    "1658521371a5401699"
+  ]
+}
