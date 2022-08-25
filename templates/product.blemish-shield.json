@@ -1,1 +1,356 @@
-{"sections":{"165905068187733fa7":{"type":"image--slideshow","blocks":{"1659050680fd2bde02-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/SHOP_BANNER_-_DESKTOP_377e3deb-2fd6-4ed6-bea2-bd9200fe71cf.png","mobile_image":"shopify:\/\/shop_images\/SHOP_BANNER_-_MOBILE.png","title":"","text":"","button_label":"","button_link":"","caption-background":"rgba(0,0,0,0)","caption-text":"#ffffff","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"left","captionAlignment":"left"}}},"block_order":["1659050680fd2bde02-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":false,"slider-slide-time":5,"caption-heading-size":30,"caption-subheading-size":16,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}},"product-form":{"type":"template--product","blocks":{"media":{"type":"media","settings":{"image_size":"small","image-display":"thumbnails","thumbnail_position":"below","enable_image_zoom":false,"enable_video_loop":false}},"sale_badge":{"type":"sale_badge","settings":{}},"title":{"type":"title","settings":{}},"38108df2-9d9d-496e-9a91-e96ce8bb50c1":{"type":"custom_liquid","settings":{"custom_liquid":"<p>{{ product.description }}<\/p>"}},"price":{"type":"price","settings":{"shipping_policy":true,"tax_included":false}},"options":{"type":"options","settings":{"product_variant_style":"swatches","thumbnail_changes_variant":true,"hide_soldout_variants":false}},"quantity":{"type":"quantity","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_smart_checkout":true}}},"block_order":["media","sale_badge","title","38108df2-9d9d-496e-9a91-e96ce8bb50c1","price","options","quantity","buy_buttons"],"settings":{"enable_sticky":true,"show_out_of_stock_email":true}},"1660171732394c3d9e":{"type":"video--video","settings":{"colors":"dark","title":"HOW TO APPLY","richtext":"","width_classes":50,"url":"https:\/\/vimeo.com\/729071174","autoplay":false,"loop":false,"mute":false,"image":"shopify:\/\/shop_images\/Application_Instructions_-_Video_Slide_-_Working.png","video_overlay_opacity":50}},"1660151307a9cfabe5":{"type":"accordion","blocks":{"1660151307abbb41e5-0":{"type":"tab_content","settings":{"question":"SUN PROTECTION","text":"<p>UPF 50+ (BLOCKS 98% OF UVA\/UVB)<\/p>"}},"1660151307abbb41e5-1":{"type":"tab_content","settings":{"question":"BLUE LIGHT DEFENSE","text":"<p>PROTECTS OUR SKIN FROM DIGITAL SCREEN EXPOSURE<\/p>"}},"1660151307abbb41e5-2":{"type":"tab_content","settings":{"question":"POLLUTION BARRIER","text":"<p>SHIELDS OUR SKIN FROM AIRBORNE URBAN POLLUTANTS AND IRRITANTS<\/p>"}},"ccb85e15-88ee-4ec9-b880-bddb5b430080":{"type":"tab_content","settings":{"question":"MAKEUP PROTECTION","text":"<p>APPLY MAKEUP ON TOP OF FILM TO PREVENT CLOGGED UP PORES<\/p>"}},"49b17b6f-d788-4efc-872b-9cf5d1ff7b2b":{"type":"tab_content","settings":{"question":"LASTS ALL DAY","text":"<p>APPLY IN THE MORNING AND REMOVE\/DISCARD AT NIGHT WITH NO NEED FOR REAPPLICATION (UNLIKE SUNSCREEN)<\/p>"}},"621d3dcb-71ff-4d17-9c5c-09b1d9bfc483":{"type":"tab_content","settings":{"question":"INVISIBLE","text":"<p>ULTRA-THIN (0.015mm) AND CLEAR<\/p>"}},"7f955817-1d8a-4ccc-bfc8-a8ccad62abaa":{"type":"tab_content","settings":{"question":"FOR ALL SKIN TONES + TYPES","text":"<p>TRANSPARENT TO MATCH EVERY SKIN TONE AND TYPE<\/p>"}},"f47c251a-ae7b-44aa-9394-796c13b2ac2a":{"type":"tab_content","settings":{"question":"BREATHABLE","text":"<p>ALLOWS YOUR SKIN TO BREATHE AND SWEAT<\/p>"}},"b3e0d5a0-d88c-40a1-b9bf-f4ddf8a17652":{"type":"tab_content","settings":{"question":"WIND & WATER READY","text":"<p>SUPER ATHLETE VERSION COMING SOON<\/p>"}},"b9eae2fd-8b84-444f-ad6f-92f31d15b8d5":{"type":"tab_content","settings":{"question":"SCIENTIFICALLY PROVEN INGREDIENTS","text":"<p>HYALURONIC ACID, UBIQUINONE, RESVERATROL, PALMITOYL TRIPEPTIDE\/TETRAPEPTIDE, LOTUS LEAF, FERULIC ACID, BETAINE, PANTHENOL, ALLANTOIN, MADECASSOSIDE, CAMELLIA SINENSIS, CITRUS UNSHIU<\/p>"}},"54c59746-5b46-4039-9e32-a08a5e2b7b65":{"type":"tab_content","settings":{"question":"CREATED BY A DERMATOLOGIST","text":"<p>ENVISIONED, ENGINEERED, AND FORMULATED FOR YOUR SKIN BY DR. FLORA KIM (BOARD CERTIFIED DERMATOLOGIST)<\/p>"}},"2daa6603-4c11-49cf-8f8e-88d6a34ee7f7":{"type":"tab_content","settings":{"question":"REEF-SAFE","text":"<p>NO CHEMICALS RELEASED INTO OUR OCEANS AND PLANET<\/p>"}}},"block_order":["1660151307abbb41e5-0","1660151307abbb41e5-1","1660151307abbb41e5-2","ccb85e15-88ee-4ec9-b880-bddb5b430080","49b17b6f-d788-4efc-872b-9cf5d1ff7b2b","621d3dcb-71ff-4d17-9c5c-09b1d9bfc483","7f955817-1d8a-4ccc-bfc8-a8ccad62abaa","f47c251a-ae7b-44aa-9394-796c13b2ac2a","b3e0d5a0-d88c-40a1-b9bf-f4ddf8a17652","b9eae2fd-8b84-444f-ad6f-92f31d15b8d5","54c59746-5b46-4039-9e32-a08a5e2b7b65","2daa6603-4c11-49cf-8f8e-88d6a34ee7f7"],"settings":{"colors":"white","title":"THE 8TH LAYER DIFFERENCE","faq_icon":"plus_minus"}},"product-description":{"type":"template--product--description","disabled":true,"settings":{"enable_readmore":false}},"product-recommendations":{"type":"template--product--recommendations","disabled":true,"blocks":{"product_card_image":{"type":"product_card_image","settings":{"hover-effect":false,"enable_badges":true}},"product_card_title":{"type":"product_card_title","settings":{}},"product_card_vendor":{"type":"product_card_vendor","settings":{}},"product_card_price":{"type":"product_card_price","settings":{}},"product_card_button":{"type":"product_card_button","settings":{}}},"block_order":["product_card_image","product_card_title","product_card_vendor","product_card_price","product_card_button"],"settings":{"enable_product_recommendations":false,"product_recommendations_heading":"You may also like"}},"recently-viewed":{"type":"template--product--recently-viewed","disabled":true,"settings":{"enable_recently_viewed":false,"recently_viewed_title":"Recently viewed products"}},"16591269287646d6f8":{"type":"newsletter--newsletter","settings":{"colors":"light","newsletter_heading":"JOIN THE 8TH LAYER WORLD","newsletter_description":"<p>Be first to know about the latest 8TH LAYER innovations and special events.<\/p>"}},"1660601494af5902d9":{"type":"advanced-layout--custom-html","blocks":{"1660601494f1c5fcd6-0":{"type":"html","settings":{"code":"<div class=\"social-widget-wrapper\" data-widget-id=\"45623\">\n    <\/div>","width":"100%"}}},"block_order":["1660601494f1c5fcd6-0"],"settings":{}},"1659126827fb5f6065":{"type":"image--slideshow","blocks":{"1659126827ab513499-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FOOTER_BANNER_-_DESKTOP_2_ecf7447a-6e04-4634-bbd8-6c3874d8d02e.png","mobile_image":"shopify:\/\/shop_images\/FOOTER_BANNER_-_MOBILE_2_32c7b349-2b33-4d9f-ba05-4f48a5812e20.png","title":"","text":"","button_label":"","button_link":"","caption-background":"rgba(0,0,0,0)","caption-text":"#ffffff","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"left","captionAlignment":"left"}}},"block_order":["1659126827ab513499-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":true,"slider-slide-time":5,"caption-heading-size":30,"caption-subheading-size":16,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}}},"order":["165905068187733fa7","product-form","1660171732394c3d9e","1660151307a9cfabe5","product-description","product-recommendations","recently-viewed","16591269287646d6f8","1660601494af5902d9","1659126827fb5f6065"]}
+{
+  "sections": {
+    "165905068187733fa7": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1659050680fd2bde02-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHOP_BANNER_-_DESKTOP_377e3deb-2fd6-4ed6-bea2-bd9200fe71cf.png",
+            "mobile_image": "shopify:\/\/shop_images\/SHOP_BANNER_-_MOBILE.png",
+            "subtitle": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1659050680fd2bde02-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "media": {
+          "type": "media",
+          "settings": {
+            "image_size": "small",
+            "image-display": "thumbnails",
+            "thumbnail_position": "below",
+            "enable_image_zoom": false,
+            "enable_video_loop": false
+          }
+        },
+        "sale_badge": {
+          "type": "sale_badge",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "38108df2-9d9d-496e-9a91-e96ce8bb50c1": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>{{ product.description }}<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "shipping_policy": true,
+            "tax_included": false
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "product_variant_style": "swatches",
+            "thumbnail_changes_variant": true,
+            "hide_soldout_variants": false
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "media",
+        "sale_badge",
+        "title",
+        "38108df2-9d9d-496e-9a91-e96ce8bb50c1",
+        "price",
+        "options",
+        "quantity",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "show_out_of_stock_email": true
+      }
+    },
+    "1660151307a9cfabe5": {
+      "type": "accordion",
+      "blocks": {
+        "1660151307abbb41e5-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "SUN PROTECTION",
+            "text": "<p>UPF 50+ (BLOCKS 98% OF UVA\/UVB)<\/p>"
+          }
+        },
+        "1660151307abbb41e5-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "BLUE LIGHT DEFENSE",
+            "text": "<p>PROTECTS OUR SKIN FROM DIGITAL SCREEN EXPOSURE<\/p>"
+          }
+        },
+        "1660151307abbb41e5-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "POLLUTION BARRIER",
+            "text": "<p>SHIELDS OUR SKIN FROM AIRBORNE URBAN POLLUTANTS AND IRRITANTS<\/p>"
+          }
+        },
+        "ccb85e15-88ee-4ec9-b880-bddb5b430080": {
+          "type": "tab_content",
+          "settings": {
+            "question": "MAKEUP PROTECTION",
+            "text": "<p>APPLY MAKEUP ON TOP OF FILM TO PREVENT CLOGGED UP PORES<\/p>"
+          }
+        },
+        "49b17b6f-d788-4efc-872b-9cf5d1ff7b2b": {
+          "type": "tab_content",
+          "settings": {
+            "question": "LASTS ALL DAY",
+            "text": "<p>APPLY IN THE MORNING AND REMOVE\/DISCARD AT NIGHT WITH NO NEED FOR REAPPLICATION (UNLIKE SUNSCREEN)<\/p>"
+          }
+        },
+        "621d3dcb-71ff-4d17-9c5c-09b1d9bfc483": {
+          "type": "tab_content",
+          "settings": {
+            "question": "INVISIBLE",
+            "text": "<p>ULTRA-THIN (0.015mm) AND CLEAR<\/p>"
+          }
+        },
+        "7f955817-1d8a-4ccc-bfc8-a8ccad62abaa": {
+          "type": "tab_content",
+          "settings": {
+            "question": "FOR ALL SKIN TONES + TYPES",
+            "text": "<p>TRANSPARENT TO MATCH EVERY SKIN TONE AND TYPE<\/p>"
+          }
+        },
+        "f47c251a-ae7b-44aa-9394-796c13b2ac2a": {
+          "type": "tab_content",
+          "settings": {
+            "question": "BREATHABLE",
+            "text": "<p>ALLOWS YOUR SKIN TO BREATHE AND SWEAT<\/p>"
+          }
+        },
+        "b3e0d5a0-d88c-40a1-b9bf-f4ddf8a17652": {
+          "type": "tab_content",
+          "settings": {
+            "question": "WIND & WATER READY",
+            "text": "<p>SUPER ATHLETE VERSION COMING SOON<\/p>"
+          }
+        },
+        "b9eae2fd-8b84-444f-ad6f-92f31d15b8d5": {
+          "type": "tab_content",
+          "settings": {
+            "question": "SCIENTIFICALLY PROVEN INGREDIENTS",
+            "text": "<p>HYALURONIC ACID, UBIQUINONE, RESVERATROL, PALMITOYL TRIPEPTIDE\/TETRAPEPTIDE, LOTUS LEAF, FERULIC ACID, BETAINE, PANTHENOL, ALLANTOIN, MADECASSOSIDE, CAMELLIA SINENSIS, CITRUS UNSHIU<\/p>"
+          }
+        },
+        "54c59746-5b46-4039-9e32-a08a5e2b7b65": {
+          "type": "tab_content",
+          "settings": {
+            "question": "CREATED BY A DERMATOLOGIST",
+            "text": "<p>ENVISIONED, ENGINEERED, AND FORMULATED FOR YOUR SKIN BY DR. FLORA KIM (BOARD CERTIFIED DERMATOLOGIST)<\/p>"
+          }
+        },
+        "2daa6603-4c11-49cf-8f8e-88d6a34ee7f7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "REEF-SAFE",
+            "text": "<p>NO CHEMICALS RELEASED INTO OUR OCEANS AND PLANET<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660151307abbb41e5-0",
+        "1660151307abbb41e5-1",
+        "1660151307abbb41e5-2",
+        "ccb85e15-88ee-4ec9-b880-bddb5b430080",
+        "49b17b6f-d788-4efc-872b-9cf5d1ff7b2b",
+        "621d3dcb-71ff-4d17-9c5c-09b1d9bfc483",
+        "7f955817-1d8a-4ccc-bfc8-a8ccad62abaa",
+        "f47c251a-ae7b-44aa-9394-796c13b2ac2a",
+        "b3e0d5a0-d88c-40a1-b9bf-f4ddf8a17652",
+        "b9eae2fd-8b84-444f-ad6f-92f31d15b8d5",
+        "54c59746-5b46-4039-9e32-a08a5e2b7b65",
+        "2daa6603-4c11-49cf-8f8e-88d6a34ee7f7"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "THE 8TH LAYER DIFFERENCE",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "disabled": true,
+      "settings": {
+        "enable_readmore": false
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "disabled": true,
+      "blocks": {
+        "product_card_image": {
+          "type": "product_card_image",
+          "settings": {
+            "hover-effect": false,
+            "enable_badges": true
+          }
+        },
+        "product_card_title": {
+          "type": "product_card_title",
+          "settings": {
+          }
+        },
+        "product_card_vendor": {
+          "type": "product_card_vendor",
+          "settings": {
+          }
+        },
+        "product_card_price": {
+          "type": "product_card_price",
+          "settings": {
+          }
+        },
+        "product_card_button": {
+          "type": "product_card_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_card_image",
+        "product_card_title",
+        "product_card_vendor",
+        "product_card_price",
+        "product_card_button"
+      ],
+      "settings": {
+        "enable_product_recommendations": false,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "template--product--recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed": false,
+        "recently_viewed_title": "Recently viewed products"
+      }
+    },
+    "16591269287646d6f8": {
+      "type": "newsletter--newsletter",
+      "settings": {
+        "colors": "light",
+        "newsletter_heading": "JOIN THE 8TH LAYER WORLD",
+        "newsletter_description": "<p>Be first to know about the latest 8TH LAYER innovations and special events.<\/p>"
+      }
+    },
+    "1660601494af5902d9": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "1660601494f1c5fcd6-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"social-widget-wrapper\" data-widget-id=\"45623\">\n    <\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1660601494f1c5fcd6-0"
+      ],
+      "settings": {
+      }
+    },
+    "1659126827fb5f6065": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1659126827ab513499-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_DESKTOP_2_ecf7447a-6e04-4634-bbd8-6c3874d8d02e.png",
+            "mobile_image": "shopify:\/\/shop_images\/FOOTER_BANNER_-_MOBILE_2_32c7b349-2b33-4d9f-ba05-4f48a5812e20.png",
+            "subtitle": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1659126827ab513499-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "165905068187733fa7",
+    "product-form",
+    "1660151307a9cfabe5",
+    "product-description",
+    "product-recommendations",
+    "recently-viewed",
+    "16591269287646d6f8",
+    "1660601494af5902d9",
+    "1659126827fb5f6065"
+  ]
+}
