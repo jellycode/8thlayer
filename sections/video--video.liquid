@@ -61,6 +61,11 @@
       </style>
     </div>
   </div>
+
+
+        {% if section.settings.caption != '' %}
+          {{ section.settings.caption }}
+        {% endif %}
 </div>
 
 {% schema %}
