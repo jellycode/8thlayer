@@ -28,6 +28,13 @@
         "caption": "<p>The 8th LAYER provides INVISIBLE and ALL DAY PROTECTION (no need to reapply) that can only be seen with a UV camera.<\/p>"
       }
     },
+    "1661393817b9d0c566": {
+      "type": "text--section-title",
+      "settings": {
+        "subtitle": "Created by a dermatologist",
+        "title": "The 8th LAYER Collection"
+      }
+    },
     "1659049476a836bc0c": {
       "type": "image--slideshow",
       "blocks": {
@@ -600,6 +607,7 @@
   "order": [
     "1661299401711673a6",
     "1661354062c84fb601",
+    "1661393817b9d0c566",
     "1659049476a836bc0c",
     "1659049309a8a0cfaf",
     "166137403977b5e24a",
