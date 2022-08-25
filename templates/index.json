@@ -311,16 +311,6 @@
         "slider-navigation-color": "#ffffff"
       }
     },
-    "165971657662c6c36d": {
-      "type": "text--rich-text",
-      "settings": {
-        "colors": "white",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "165773927267891dd3": {
       "type": "image--slideshow",
       "disabled": true,
@@ -620,7 +610,6 @@
     "video-video-hero",
     "165774678290894d85",
     "1657744199b92ac9ed",
-    "165971657662c6c36d",
     "165773927267891dd3",
     "1657739332743ea72b",
     "16577393897bd60794",
