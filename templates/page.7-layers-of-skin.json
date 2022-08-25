@@ -39,6 +39,13 @@
         "slider-navigation-color": "#ffffff"
       }
     },
+    "1661395434d0838554": {
+      "type": "text--section-title",
+      "settings": {
+        "subtitle": "",
+        "title": "Why do we need to protect our skin from the sun?"
+      }
+    },
     "166059980171922ac5": {
       "type": "text--rich-text",
       "settings": {
@@ -487,6 +494,7 @@
   },
   "order": [
     "1659114536dbcf0d7b",
+    "1661395434d0838554",
     "166059980171922ac5",
     "main",
     "accordion-00",
