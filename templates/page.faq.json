@@ -149,6 +149,13 @@
             "question": "WHO DO I CONTACT IF I HAVE A QUESTION THAT IS NOT ANSWERED HERE?",
             "text": "<p>Please email <a href=\"mailto:info@8thlayerskin.com\"><span style=\"text-decoration:underline\">info@8thlayerskin.com<\/span><\/a> and we will be most happy to assist you.<\/p>"
           }
+        },
+        "456b7da0-1c9f-454e-bd27-b1d21fb33883": {
+          "type": "tab_content",
+          "settings": {
+            "question": "HOW TO FEATHER THE EDGES OF THE 8TH LAYER TO MAKE IT EVEN MORE INVISIBLE",
+            "text": "<p>Feathering is a technique that blends the edges of the 8th LAYER so that the transition from the border of the film to your skin is even more incredibly invisible.<\/p><p>See the instruction video below for more information.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -164,7 +171,8 @@
         "9e34bc52-7f9b-422e-ab75-9eecb5bee2f9",
         "3f894824-f2a6-4d82-abe1-cdf6165dc428",
         "6273ee3b-4177-4971-ad3d-101a619c13b4",
-        "9912fc5e-4da6-4b23-9c7f-2ca8dcac500a"
+        "9912fc5e-4da6-4b23-9c7f-2ca8dcac500a",
+        "456b7da0-1c9f-454e-bd27-b1d21fb33883"
       ],
       "settings": {
         "colors": "white",
@@ -178,6 +186,7 @@
         "colors": "dark",
         "title": "HOW TO APPLY",
         "richtext": "",
+        "caption": "",
         "width_classes": 50,
         "url": "https:\/\/vimeo.com\/729071174",
         "autoplay": false,
@@ -185,6 +194,21 @@
         "mute": false,
         "image": "shopify:\/\/shop_images\/Application_Instructions_-_Video_Slide_-_Working.png",
         "video_overlay_opacity": 0
+      }
+    },
+    "16613967029cad1fed": {
+      "type": "video--video",
+      "settings": {
+        "colors": "dark",
+        "title": "APPLICATION TIP TO FEATHER EDGES",
+        "richtext": "",
+        "caption": "",
+        "width_classes": 75,
+        "url": "https:\/\/vimeo.com\/740041392",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "video_overlay_opacity": 50
       }
     },
     "1659368798de0b55d8": {
@@ -396,6 +420,7 @@
     "main",
     "accordion-00",
     "16588720442f1fbca0",
+    "16613967029cad1fed",
     "1659368798de0b55d8",
     "165913847797282175",
     "16591382749b88a716",
