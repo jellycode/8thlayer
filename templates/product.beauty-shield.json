@@ -142,22 +142,6 @@
         "video_overlay_opacity": 50
       }
     },
-    "1660664390cd1c69e7": {
-      "type": "video--video",
-      "settings": {
-        "colors": "dark",
-        "title": "APPLICATION TIP TO FEATHER EDGES",
-        "richtext": "",
-        "caption": "",
-        "width_classes": 50,
-        "url": "https:\/\/vimeo.com\/740041392",
-        "autoplay": false,
-        "loop": false,
-        "mute": false,
-        "image": "shopify:\/\/shop_images\/8th_LAYER_-_Feathering_Edges_Tip.00_01_07_27.Still001.jpg",
-        "video_overlay_opacity": 50
-      }
-    },
     "1660151307a9cfabe5": {
       "type": "accordion",
       "blocks": {
@@ -395,7 +379,6 @@
     "product-form",
     "1660663452e6a33eb7",
     "1660171732394c3d9e",
-    "1660664390cd1c69e7",
     "1660151307a9cfabe5",
     "product-description",
     "product-recommendations",
