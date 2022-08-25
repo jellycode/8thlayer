@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-#theme-8thlayer {
+#theme-8thlayer,
+#theme-products {
  h5 {
   @apply text-pink-500 uppercase tracking-wide font-medium mb-1 text-base leading-none;
  }
