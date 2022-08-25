@@ -692,6 +692,16 @@ video {
   margin-bottom: 7rem;
 }
 
+.my-52 {
+  margin-top: 13rem;
+  margin-bottom: 13rem;
+}
+
+.my-44 {
+  margin-top: 11rem;
+  margin-bottom: 11rem;
+}
+
 .ml-0 {
   margin-left: 0px;
 }
@@ -1186,6 +1196,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1424,7 +1439,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
-#theme-8thlayer h5,  #theme-products h5,  #theme-thebeautyshield h5 {
+body.theme-8thlayer h5 {
   margin-bottom: 0.25rem;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1436,23 +1451,23 @@ video {
   color: rgb(228 0 127 / var(--tw-text-opacity));
 }
 
-#theme-8thlayer .hero .grid,  #theme-products .hero .grid,  #theme-thebeautyshield .hero .grid {
+body.theme-8thlayer .hero .grid {
   margin-left: 0px;
 }
 
-#theme-8thlayer .hero .content,  #theme-products .hero .content,  #theme-thebeautyshield .hero .content {
+body.theme-8thlayer .hero .content {
   line-height: 1.25;
 }
 
-#theme-8thlayer .disclosure__button,  #theme-products .disclosure__button,  #theme-thebeautyshield .disclosure__button {
+body.theme-8thlayer .disclosure__button {
   display: flex;
 }
 
-#theme-8thlayer .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper,  #theme-products .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper,  #theme-thebeautyshield .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper {
+body.theme-8thlayer .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper {
   margin-top: 5rem;
 }
 
-#theme-8thlayer a.homepage-section-btn,  #theme-products a.homepage-section-btn,  #theme-thebeautyshield a.homepage-section-btn {
+body.theme-8thlayer a.homepage-section-btn {
   margin-top: 0px;
 }
 
