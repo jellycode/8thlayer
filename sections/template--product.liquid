@@ -36,14 +36,14 @@
 
   {% case media_block.settings.image_size %}
     {% when 'small' %}
-      {%- assign product_description_width = 'large--seven-twelfths' -%}
-      {%- assign product_image_width = 'large--five-twelfths' -%}
+      {%- assign product_description_width = 'col-span-12 md:col-span-7' -%}
+      {%- assign product_image_width = 'col-span-12 md:col-span-5' -%}
     {% when 'medium' %}
-      {%- assign product_description_width = 'large--six-twelfths' -%}
-      {%- assign product_image_width = 'large--six-twelfths' -%}
+      {%- assign product_description_width = 'col-span-12 md:col-span-6' -%}
+      {%- assign product_image_width = 'col-span-12 md:col-span-6' -%}
     {% when 'large' %}
-      {%- assign product_description_width = 'large--five-twelfths' -%}
-      {%- assign product_image_width = 'large--seven-twelfths' -%}
+      {%- assign product_description_width = 'col-span-12 md:col-span-5' -%}
+      {%- assign product_image_width = 'col-span-12 md:col-span-7' -%}
   {% endcase %}
 
   <div class="product-media-templates">
@@ -100,7 +100,7 @@
     >
       <div class="product-single-wrapper">
         <div
-          class="grid product-single product-sticky-wrapper{% if options_block.settings.product_variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}"
+          class="grid grid-cols-12 product-single product-sticky-wrapper{% if options_block.settings.product_variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}"
           data-section-id="{{ section.id }}"
         >
           <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">

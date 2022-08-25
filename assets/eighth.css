@@ -652,6 +652,22 @@ video {
   grid-column: span 1 / span 1;
 }
 
+.col-span-7 {
+  grid-column: span 7 / span 7;
+}
+
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -732,6 +748,18 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.\!mb-20 {
+  margin-bottom: 5rem !important;
+}
+
+.\!mb-10 {
+  margin-bottom: 2.5rem !important;
+}
+
 .block {
   display: block;
 }
@@ -808,6 +836,14 @@ video {
   max-width: 64rem;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -846,6 +882,10 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1108,6 +1148,14 @@ video {
   padding: 3rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1131,6 +1179,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-10 {
@@ -1371,7 +1424,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
-#theme-8thlayer h5,  #theme-products h5 {
+#theme-8thlayer h5,  #theme-products h5,  #theme-thebeautyshield h5 {
   margin-bottom: 0.25rem;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1383,21 +1436,45 @@ video {
   color: rgb(228 0 127 / var(--tw-text-opacity));
 }
 
-#theme-8thlayer .hero .grid,  #theme-products .hero .grid {
+#theme-8thlayer .hero .grid,  #theme-products .hero .grid,  #theme-thebeautyshield .hero .grid {
   margin-left: 0px;
 }
 
-#theme-8thlayer .hero .content,  #theme-products .hero .content {
+#theme-8thlayer .hero .content,  #theme-products .hero .content,  #theme-thebeautyshield .hero .content {
   line-height: 1.25;
 }
 
-#theme-8thlayer .disclosure__button,  #theme-products .disclosure__button {
+#theme-8thlayer .disclosure__button,  #theme-products .disclosure__button,  #theme-thebeautyshield .disclosure__button {
   display: flex;
+}
+
+#theme-8thlayer .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper,  #theme-products .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper,  #theme-thebeautyshield .homepage-section--slideshow-wrapper + .homepage-section--slideshow-wrapper {
+  margin-top: 5rem;
+}
+
+#theme-8thlayer a.homepage-section-btn,  #theme-products a.homepage-section-btn,  #theme-thebeautyshield a.homepage-section-btn {
+  margin-top: 0px;
+}
+
+#theme-products .homepage-section--slideshow-wrapper .swiper-wrapper {
+  max-height: 100%;
 }
 
 @media (min-width: 768px) {
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:col-span-7 {
+    grid-column: span 7 / span 7;
+  }
+
+  .md\:col-span-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:col-span-6 {
+    grid-column: span 6 / span 6;
   }
 
   .md\:mb-10 {
