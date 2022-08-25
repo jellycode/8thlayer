@@ -1,0 +1,36 @@
+<div>
+
+	<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
+	<h2 class="text-4xl font-medium mb-6">{{ section.settings.title }}</h2>
+
+</div>
+
+{% schema %}
+{
+    "name": {
+        "en": "Section Title"
+    },
+    "settings": [
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": {
+                "en": "Sub Title"
+            }
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": {
+                "en": "Title"
+            }
+        }
+    ],
+    "presets": [
+      {
+        "name": "Section Title",
+        "category": "Custom"
+      }
+    ]
+}
+{% endschema %}
