@@ -14,9 +14,9 @@
 		<div>
 			<div class="max-w-xl">
 
-				<compare-slider id="image-compare" class="shadow-sm">
-				<img src="{{ section.settings.left_image | img_url: 'large' }}" alt="" />
-				<img src="{{ section.settings.right_image | img_url: 'large' }}" alt="" />
+				<compare-slider id="image-compare" class="shadow-sm flex">
+					<img src="{{ section.settings.left_image | img_url: 'large' }}" alt="" />
+					<img src="{{ section.settings.right_image | img_url: 'large' }}" alt="" />
 				</compare-slider>
 
 				<div class="text-sm font-medium text-center px-4 mt-4">{{ section.settings.caption }}</div>

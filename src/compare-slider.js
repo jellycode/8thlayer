@@ -8,4 +8,6 @@ class CompareSlider extends HTMLElement {
   const viewer = new ImageCompare(element).mount();
  }
 }
-customElements.define('compare-slider', CompareSlider);
+if (!customElements.get('compare-slider')) {
+ customElements.define('compare-slider', CompareSlider);
+}
