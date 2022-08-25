@@ -9,9 +9,9 @@
         "title": "The Beauty Shield",
         "content": "<p>Innovative <strong>K-Beauty<\/strong> technology in the form of an invisible ultra-thin film created by a <strong>dermatologist<\/strong> to protect and nourish your beautiful skin every day.<\/p>",
         "primarybutton_label": "Shop Now",
-        "primarybutton_link": "",
+        "primarybutton_link": "shopify:\/\/collections",
         "secondarybutton_label": "Learn More",
-        "secondarybutton_link": ""
+        "secondarybutton_link": "shopify:\/\/pages\/7-layers-of-skin"
       }
     },
     "1661354062c84fb601": {
@@ -554,6 +554,7 @@
         "colors": "dark",
         "title": "HOW TO APPLY",
         "richtext": "",
+        "caption": "",
         "width_classes": 50,
         "url": "https:\/\/vimeo.com\/729071174",
         "autoplay": false,
