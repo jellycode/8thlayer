@@ -1,41 +1,31 @@
-{% if section.settings.image != blank %}
-	{% capture id %}image-quote-block-{{ section.settings.image.id }}{% endcapture %}
-	{% capture selector %}#{{ id }}{% endcapture %}
-	<style>
-		{{ selector }} {
-			background-image: url('{{ section.settings.image | img_url: '2048x2048' }}');
-		}
+<div class="bg-gradient-to-b from-white to-pink-100">
+<div id="{{ id }}" class='w-full bg-contain h-full min-h-[400px] overflow-hidden image-quote flex flex-col relative mt-20 md:mb-0 md:mt-40 border-b-4 border-white '>
 
-		{{ selector }} .content:before {
-			content: '';
-			background-image: url('{{ 'quote.png' | asset_url }}');
-			background-size: contain;
-			background-repeat: no-repeat;
-			position: absolute;
-			top: 30px;
-			left: -70px;
-			height: 100px;
-			width: 100px;
-			z-index: 0;
-		}
-	</style>
-	{% endif %}
+	<div class="container m-auto "> 
+
+		<div class="flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row justify-center items-center">
+
+			<div class="">
+
+				<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
+				<h2 class="text-4xl  font-medium mb-0">{{ section.settings.title }}</h2>
+				<div class="content relative max-w-lg mb-10 italic bg-pink-100 px-6 py-6 mt-2 lg:mt-6 "><div class="z-10 relative">{{ section.settings.content }}</div></div>
+
+				<div class="flex flex-row items-center justify-center md:justify-start">
+					<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-sm font-medium bg-white px-10 py-3 hover:text-pink-500 transition">{{ section.settings.primarybutton_label }}</a>
+				</div>
+			</div>
+			<div>
+				<img src="{{ 'flora_sitting.png' | asset_url }}" class="max-w-lg" />
+			</div>
 
 
-<div id="{{ id }}" class='w-full h-full min-h-[400px] bg-cover bg-[right_-1000px] md:bg-[-780px_bottom] lg:bg-[-720px_bottom] xl:bg-[right_bottom] bg-no-repeat overflow-hidden image-quote flex flex-col relative mt-20 mb-20 md:mb-0 md:mt-40'>
-
-	<div class="container m-auto max-w-5xl">
-		<h5 class="!text-pink-300 lg:!text-pink-500">{{ section.settings.subtitle | replace: "+", "<span class='align-super'>+</span>" }}</h5>
-		<h2 class="text-4xl  font-medium mb-0">{{ section.settings.title }}</h2>
-		<div class="content relative max-w-lg mb-10 italic pt-10 "><div class="z-10 relative">{{ section.settings.content }}</div></div>
-
-		<div class="flex flex-row items-center justify-center md:justify-start">
-			<a href="{{ section.settings.primarybutton_link }}" class="uppercase text-sm font-medium bg-pink-300 px-10 py-3">{{ section.settings.primarybutton_label }}</a>
 		</div>
-	</div>
-  
 
+	</div>
 </div>
+</div>
+  
 
 {% schema %}
 {
