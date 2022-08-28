@@ -852,6 +852,10 @@ video {
   height: 100vh;
 }
 
+.h-0 {
+  height: 0px;
+}
+
 .min-h-\[600px\] {
   min-height: 600px;
 }
@@ -1280,10 +1284,6 @@ video {
 
 .bg-\[center_center\] {
   background-position: center center;
-}
-
-.bg-\[right_-1000px\] {
-  background-position: right -1000px;
 }
 
 .bg-no-repeat {
@@ -1747,6 +1747,10 @@ body.theme-8thlayer a.homepage-section-btn {
     height: 100vh;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1757,10 +1761,6 @@ body.theme-8thlayer a.homepage-section-btn {
 
   .md\:justify-start {
     justify-content: flex-start;
-  }
-
-  .md\:gap-y-0 {
-    row-gap: 0px;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -1783,8 +1783,32 @@ body.theme-8thlayer a.homepage-section-btn {
     background-position: -1200px center;
   }
 
-  .md\:bg-\[-780px_bottom\] {
-    background-position: -780px bottom;
+  .md\:bg-\[-700px_center\] {
+    background-position: -700px center;
+  }
+
+  .md\:bg-\[-20\%_center\] {
+    background-position: -20% center;
+  }
+
+  .md\:bg-\[-70\%_center\] {
+    background-position: -70% center;
+  }
+
+  .md\:bg-\[20\%_center\] {
+    background-position: 20% center;
+  }
+
+  .md\:bg-\[30\%_center\] {
+    background-position: 30% center;
+  }
+
+  .md\:bg-\[50\%_center\] {
+    background-position: 50% center;
+  }
+
+  .md\:bg-\[60\%_center\] {
+    background-position: 60% center;
   }
 
   .md\:p-0 {
@@ -1804,14 +1828,6 @@ body.theme-8thlayer a.homepage-section-btn {
 @media (min-width: 1024px) {
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
-  }
-
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .lg\:mt-4 {
-    margin-top: 1rem;
   }
 
   .lg\:mt-6 {
@@ -1858,8 +1874,8 @@ body.theme-8thlayer a.homepage-section-btn {
     background-position: -1300px center;
   }
 
-  .lg\:bg-\[-720px_bottom\] {
-    background-position: -720px bottom;
+  .lg\:bg-\[50\%_center\] {
+    background-position: 50% center;
   }
 
   .lg\:\!text-pink-500 {
@@ -1873,8 +1889,8 @@ body.theme-8thlayer a.homepage-section-btn {
     background-position: -1000px center;
   }
 
-  .xl\:bg-\[center_bottom\] {
-    background-position: center bottom;
+  .xl\:bg-\[50\%_center\] {
+    background-position: 50% center;
   }
 }
 
